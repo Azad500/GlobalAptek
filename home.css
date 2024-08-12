@@ -1,0 +1,1308 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --animation-timing: 15s;
+  --carousel-items: 9;
+  --animation-delay-fraction: calc(
+    var(--animation-timing) / var(--carousel-items)
+  );
+  --animation-steps-fraction: calc(100% / var(--carousel-items));
+  --slide-change-timing: 3%;
+  --hundred-width: 100%;
+  --zero-width: 0%;
+}
+
+header {
+  width: 100%;
+}
+header .up-side-in-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+header .up-side-in-header .navbar {
+  width: 100%;
+  background-color: #007378;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+header .up-side-in-header .navbar .navbar-elements {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .up-side-in-header .navbar .navbar-elements .left-side-in-navbar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+@media screen and (max-width: 768px) {
+  header .up-side-in-header .navbar .navbar-elements .left-side-in-navbar {
+    gap: 5px;
+  }
+}
+header .up-side-in-header .navbar .navbar-elements .left-side-in-navbar .logo {
+  width: 40px;
+}
+header .up-side-in-header .navbar .navbar-elements .left-side-in-navbar .logo img {
+  width: 100%;
+}
+header .up-side-in-header .navbar .navbar-elements .left-side-in-navbar .location {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  gap: 5px;
+  transition: all 0.3s ease-in-out;
+}
+@media screen and (max-width: 768px) {
+  header .up-side-in-header .navbar .navbar-elements .left-side-in-navbar .location {
+    display: none;
+  }
+}
+header .up-side-in-header .navbar .navbar-elements .left-side-in-navbar .location:hover {
+  transform: scale(1.05);
+}
+header .up-side-in-header .navbar .navbar-elements .left-side-in-navbar .location i {
+  font-size: 12px;
+}
+header .up-side-in-header .navbar .navbar-elements .left-side-in-navbar .location p {
+  font-size: 12px;
+  font-family: inherit;
+}
+header .up-side-in-header .navbar .navbar-elements .left-side-in-navbar .mobile-company-name {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  header .up-side-in-header .navbar .navbar-elements .left-side-in-navbar .mobile-company-name {
+    display: block;
+    color: white;
+    font-family: inherit;
+    font-style: italic;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  header .up-side-in-header .navbar .navbar-elements .center-side-in-navbar {
+    display: none;
+  }
+}
+header .up-side-in-header .navbar .navbar-elements .center-side-in-navbar h1 {
+  color: white;
+  font-family: inherit;
+  font-style: italic;
+}
+header .up-side-in-header .navbar .navbar-elements .right-side-in-navbar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header .up-side-in-header .navbar .navbar-elements .right-side-in-navbar .contact-info-in-navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+@media screen and (max-width: 768px) {
+  header .up-side-in-header .navbar .navbar-elements .right-side-in-navbar .contact-info-in-navbar {
+    display: none;
+  }
+}
+header .up-side-in-header .navbar .navbar-elements .right-side-in-navbar .contact-info-in-navbar a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+header .up-side-in-header .navbar .navbar-elements .right-side-in-navbar .contact-info-in-navbar a:hover {
+  transform: scale(1.05);
+}
+header .up-side-in-header .navbar .navbar-elements .right-side-in-navbar .contact-info-in-navbar a i {
+  font-size: 12px;
+}
+header .up-side-in-header .navbar .navbar-elements .right-side-in-navbar .contact-info-in-navbar a p {
+  font-size: 12px;
+  font-family: inherit;
+}
+header .up-side-in-header .navbar .navbar-elements .right-side-in-navbar .menu-bar {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  header .up-side-in-header .navbar .navbar-elements .right-side-in-navbar .menu-bar {
+    display: block;
+  }
+}
+header .up-side-in-header .navbar .navbar-elements .right-side-in-navbar .menu-bar i {
+  color: white;
+  font-size: 20px;
+}
+header .up-side-in-header .center-in-header {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 0;
+  background-color: #00876b;
+  border: 1px solid black;
+  border-right: none;
+  border-left: none;
+}
+header .up-side-in-header .center-in-header li {
+  transition: all 0.3s ease-in-out;
+}
+header .up-side-in-header .center-in-header li::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: white;
+  display: block;
+  margin: auto;
+  transition: all 0.3s ease-in-out;
+}
+header .up-side-in-header .center-in-header li:hover::after {
+  width: var(--hundred-width);
+}
+header .up-side-in-header .center-in-header li:hover {
+  transform: scale(1.05);
+}
+header .up-side-in-header .center-in-header li p {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  header .up-side-in-header .center-in-header li p {
+    font-size: 12px;
+  }
+}
+header .up-side-in-header .center-in-header .buyDrug-con::after {
+  width: var(--hundred-width);
+}
+header .up-side-in-header .center-in-header .findDoc-con::after {
+  width: var(--zero-width);
+}
+header .up-side-in-header .center-in-header .notesHealty-con::after {
+  width: var(--zero-width);
+}
+header .up-side-in-header .down-side-in-navbar {
+  width: 100%;
+  height: 50px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #00994a;
+  border-bottom: 1px solid black;
+}
+@media screen and (max-width: 768px) {
+  header .up-side-in-header .down-side-in-navbar {
+    height: auto;
+    padding: 10px;
+  }
+}
+header .up-side-in-header .down-side-in-navbar li {
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  gap: 20px;
+}
+@media screen and (max-width: 614px) {
+  header .up-side-in-header .down-side-in-navbar li {
+    flex-direction: column;
+  }
+}
+header .up-side-in-header .down-side-in-navbar li p {
+  display: block;
+  padding: 5px 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+@media screen and (max-width: 768px) {
+  header .up-side-in-header .down-side-in-navbar li p {
+    font-size: 12px;
+  }
+}
+header .up-side-in-header .down-side-in-navbar li p:hover {
+  transform: scale(1.02);
+  background-color: #00876b;
+}
+header .down-side-in-header {
+  width: 100%;
+  position: relative;
+  margin-top: 150px;
+}
+@media screen and (max-width: 614px) {
+  header .down-side-in-header {
+    margin-top: 250px;
+  }
+}
+header .down-side-in-header .overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 300px;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+header .down-side-in-header .header-image {
+  width: 100%;
+  height: 300px;
+}
+header .down-side-in-header .header-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+header .down-side-in-header .header-text-and-search {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+header .down-side-in-header .header-text-and-search .header-text h2 {
+  font-family: inherit;
+  color: white;
+  letter-spacing: 3px;
+  font-size: 34px;
+}
+header .down-side-in-header .header-text-and-search .search-part {
+  position: relative;
+}
+header .down-side-in-header .header-text-and-search .search-part i {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+header .down-side-in-header .header-text-and-search .search-part i:hover {
+  transform: translateY(-50%) scale(1.1);
+}
+header .down-side-in-header .header-text-and-search .search-part input {
+  width: 100%;
+  padding: 15px 10px 15px 40px;
+  border-radius: 10px;
+  border: none;
+}
+
+main {
+  width: 100%;
+  background-color: #e3f8ed;
+  padding-bottom: 20px;
+}
+main .optics-container,
+main .cosmetic-container,
+main .kids-container,
+main .pregnant-container {
+  width: 100%;
+  display: none;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+main .optics-container .optics-element,
+main .optics-container .cosmetic-element,
+main .optics-container .kids-element,
+main .optics-container .pregnant-element,
+main .cosmetic-container .optics-element,
+main .cosmetic-container .cosmetic-element,
+main .cosmetic-container .kids-element,
+main .cosmetic-container .pregnant-element,
+main .kids-container .optics-element,
+main .kids-container .cosmetic-element,
+main .kids-container .kids-element,
+main .kids-container .pregnant-element,
+main .pregnant-container .optics-element,
+main .pregnant-container .cosmetic-element,
+main .pregnant-container .kids-element,
+main .pregnant-container .pregnant-element {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .optics-container .optics-element h3,
+main .optics-container .cosmetic-element h3,
+main .optics-container .kids-element h3,
+main .optics-container .pregnant-element h3,
+main .cosmetic-container .optics-element h3,
+main .cosmetic-container .cosmetic-element h3,
+main .cosmetic-container .kids-element h3,
+main .cosmetic-container .pregnant-element h3,
+main .kids-container .optics-element h3,
+main .kids-container .cosmetic-element h3,
+main .kids-container .kids-element h3,
+main .kids-container .pregnant-element h3,
+main .pregnant-container .optics-element h3,
+main .pregnant-container .cosmetic-element h3,
+main .pregnant-container .kids-element h3,
+main .pregnant-container .pregnant-element h3 {
+  margin-top: 50px;
+  cursor: pointer;
+  text-decoration: underline;
+  height: 25px;
+}
+main .optics-container .optics-element .optics-products,
+main .optics-container .optics-element .cosmetic-products,
+main .optics-container .optics-element .kids-products,
+main .optics-container .optics-element .pregnant-products,
+main .optics-container .cosmetic-element .optics-products,
+main .optics-container .cosmetic-element .cosmetic-products,
+main .optics-container .cosmetic-element .kids-products,
+main .optics-container .cosmetic-element .pregnant-products,
+main .optics-container .kids-element .optics-products,
+main .optics-container .kids-element .cosmetic-products,
+main .optics-container .kids-element .kids-products,
+main .optics-container .kids-element .pregnant-products,
+main .optics-container .pregnant-element .optics-products,
+main .optics-container .pregnant-element .cosmetic-products,
+main .optics-container .pregnant-element .kids-products,
+main .optics-container .pregnant-element .pregnant-products,
+main .cosmetic-container .optics-element .optics-products,
+main .cosmetic-container .optics-element .cosmetic-products,
+main .cosmetic-container .optics-element .kids-products,
+main .cosmetic-container .optics-element .pregnant-products,
+main .cosmetic-container .cosmetic-element .optics-products,
+main .cosmetic-container .cosmetic-element .cosmetic-products,
+main .cosmetic-container .cosmetic-element .kids-products,
+main .cosmetic-container .cosmetic-element .pregnant-products,
+main .cosmetic-container .kids-element .optics-products,
+main .cosmetic-container .kids-element .cosmetic-products,
+main .cosmetic-container .kids-element .kids-products,
+main .cosmetic-container .kids-element .pregnant-products,
+main .cosmetic-container .pregnant-element .optics-products,
+main .cosmetic-container .pregnant-element .cosmetic-products,
+main .cosmetic-container .pregnant-element .kids-products,
+main .cosmetic-container .pregnant-element .pregnant-products,
+main .kids-container .optics-element .optics-products,
+main .kids-container .optics-element .cosmetic-products,
+main .kids-container .optics-element .kids-products,
+main .kids-container .optics-element .pregnant-products,
+main .kids-container .cosmetic-element .optics-products,
+main .kids-container .cosmetic-element .cosmetic-products,
+main .kids-container .cosmetic-element .kids-products,
+main .kids-container .cosmetic-element .pregnant-products,
+main .kids-container .kids-element .optics-products,
+main .kids-container .kids-element .cosmetic-products,
+main .kids-container .kids-element .kids-products,
+main .kids-container .kids-element .pregnant-products,
+main .kids-container .pregnant-element .optics-products,
+main .kids-container .pregnant-element .cosmetic-products,
+main .kids-container .pregnant-element .kids-products,
+main .kids-container .pregnant-element .pregnant-products,
+main .pregnant-container .optics-element .optics-products,
+main .pregnant-container .optics-element .cosmetic-products,
+main .pregnant-container .optics-element .kids-products,
+main .pregnant-container .optics-element .pregnant-products,
+main .pregnant-container .cosmetic-element .optics-products,
+main .pregnant-container .cosmetic-element .cosmetic-products,
+main .pregnant-container .cosmetic-element .kids-products,
+main .pregnant-container .cosmetic-element .pregnant-products,
+main .pregnant-container .kids-element .optics-products,
+main .pregnant-container .kids-element .cosmetic-products,
+main .pregnant-container .kids-element .kids-products,
+main .pregnant-container .kids-element .pregnant-products,
+main .pregnant-container .pregnant-element .optics-products,
+main .pregnant-container .pregnant-element .cosmetic-products,
+main .pregnant-container .pregnant-element .kids-products,
+main .pregnant-container .pregnant-element .pregnant-products {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+main .optics-container .optics-element .optics-products li,
+main .optics-container .optics-element .cosmetic-products li,
+main .optics-container .optics-element .kids-products li,
+main .optics-container .optics-element .pregnant-products li,
+main .optics-container .cosmetic-element .optics-products li,
+main .optics-container .cosmetic-element .cosmetic-products li,
+main .optics-container .cosmetic-element .kids-products li,
+main .optics-container .cosmetic-element .pregnant-products li,
+main .optics-container .kids-element .optics-products li,
+main .optics-container .kids-element .cosmetic-products li,
+main .optics-container .kids-element .kids-products li,
+main .optics-container .kids-element .pregnant-products li,
+main .optics-container .pregnant-element .optics-products li,
+main .optics-container .pregnant-element .cosmetic-products li,
+main .optics-container .pregnant-element .kids-products li,
+main .optics-container .pregnant-element .pregnant-products li,
+main .cosmetic-container .optics-element .optics-products li,
+main .cosmetic-container .optics-element .cosmetic-products li,
+main .cosmetic-container .optics-element .kids-products li,
+main .cosmetic-container .optics-element .pregnant-products li,
+main .cosmetic-container .cosmetic-element .optics-products li,
+main .cosmetic-container .cosmetic-element .cosmetic-products li,
+main .cosmetic-container .cosmetic-element .kids-products li,
+main .cosmetic-container .cosmetic-element .pregnant-products li,
+main .cosmetic-container .kids-element .optics-products li,
+main .cosmetic-container .kids-element .cosmetic-products li,
+main .cosmetic-container .kids-element .kids-products li,
+main .cosmetic-container .kids-element .pregnant-products li,
+main .cosmetic-container .pregnant-element .optics-products li,
+main .cosmetic-container .pregnant-element .cosmetic-products li,
+main .cosmetic-container .pregnant-element .kids-products li,
+main .cosmetic-container .pregnant-element .pregnant-products li,
+main .kids-container .optics-element .optics-products li,
+main .kids-container .optics-element .cosmetic-products li,
+main .kids-container .optics-element .kids-products li,
+main .kids-container .optics-element .pregnant-products li,
+main .kids-container .cosmetic-element .optics-products li,
+main .kids-container .cosmetic-element .cosmetic-products li,
+main .kids-container .cosmetic-element .kids-products li,
+main .kids-container .cosmetic-element .pregnant-products li,
+main .kids-container .kids-element .optics-products li,
+main .kids-container .kids-element .cosmetic-products li,
+main .kids-container .kids-element .kids-products li,
+main .kids-container .kids-element .pregnant-products li,
+main .kids-container .pregnant-element .optics-products li,
+main .kids-container .pregnant-element .cosmetic-products li,
+main .kids-container .pregnant-element .kids-products li,
+main .kids-container .pregnant-element .pregnant-products li,
+main .pregnant-container .optics-element .optics-products li,
+main .pregnant-container .optics-element .cosmetic-products li,
+main .pregnant-container .optics-element .kids-products li,
+main .pregnant-container .optics-element .pregnant-products li,
+main .pregnant-container .cosmetic-element .optics-products li,
+main .pregnant-container .cosmetic-element .cosmetic-products li,
+main .pregnant-container .cosmetic-element .kids-products li,
+main .pregnant-container .cosmetic-element .pregnant-products li,
+main .pregnant-container .kids-element .optics-products li,
+main .pregnant-container .kids-element .cosmetic-products li,
+main .pregnant-container .kids-element .kids-products li,
+main .pregnant-container .kids-element .pregnant-products li,
+main .pregnant-container .pregnant-element .optics-products li,
+main .pregnant-container .pregnant-element .cosmetic-products li,
+main .pregnant-container .pregnant-element .kids-products li,
+main .pregnant-container .pregnant-element .pregnant-products li {
+  width: 220px;
+  height: 320px;
+  background-color: #00994a;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all 0.5s ease-in-out;
+}
+main .optics-container .optics-element .optics-products li:hover,
+main .optics-container .optics-element .cosmetic-products li:hover,
+main .optics-container .optics-element .kids-products li:hover,
+main .optics-container .optics-element .pregnant-products li:hover,
+main .optics-container .cosmetic-element .optics-products li:hover,
+main .optics-container .cosmetic-element .cosmetic-products li:hover,
+main .optics-container .cosmetic-element .kids-products li:hover,
+main .optics-container .cosmetic-element .pregnant-products li:hover,
+main .optics-container .kids-element .optics-products li:hover,
+main .optics-container .kids-element .cosmetic-products li:hover,
+main .optics-container .kids-element .kids-products li:hover,
+main .optics-container .kids-element .pregnant-products li:hover,
+main .optics-container .pregnant-element .optics-products li:hover,
+main .optics-container .pregnant-element .cosmetic-products li:hover,
+main .optics-container .pregnant-element .kids-products li:hover,
+main .optics-container .pregnant-element .pregnant-products li:hover,
+main .cosmetic-container .optics-element .optics-products li:hover,
+main .cosmetic-container .optics-element .cosmetic-products li:hover,
+main .cosmetic-container .optics-element .kids-products li:hover,
+main .cosmetic-container .optics-element .pregnant-products li:hover,
+main .cosmetic-container .cosmetic-element .optics-products li:hover,
+main .cosmetic-container .cosmetic-element .cosmetic-products li:hover,
+main .cosmetic-container .cosmetic-element .kids-products li:hover,
+main .cosmetic-container .cosmetic-element .pregnant-products li:hover,
+main .cosmetic-container .kids-element .optics-products li:hover,
+main .cosmetic-container .kids-element .cosmetic-products li:hover,
+main .cosmetic-container .kids-element .kids-products li:hover,
+main .cosmetic-container .kids-element .pregnant-products li:hover,
+main .cosmetic-container .pregnant-element .optics-products li:hover,
+main .cosmetic-container .pregnant-element .cosmetic-products li:hover,
+main .cosmetic-container .pregnant-element .kids-products li:hover,
+main .cosmetic-container .pregnant-element .pregnant-products li:hover,
+main .kids-container .optics-element .optics-products li:hover,
+main .kids-container .optics-element .cosmetic-products li:hover,
+main .kids-container .optics-element .kids-products li:hover,
+main .kids-container .optics-element .pregnant-products li:hover,
+main .kids-container .cosmetic-element .optics-products li:hover,
+main .kids-container .cosmetic-element .cosmetic-products li:hover,
+main .kids-container .cosmetic-element .kids-products li:hover,
+main .kids-container .cosmetic-element .pregnant-products li:hover,
+main .kids-container .kids-element .optics-products li:hover,
+main .kids-container .kids-element .cosmetic-products li:hover,
+main .kids-container .kids-element .kids-products li:hover,
+main .kids-container .kids-element .pregnant-products li:hover,
+main .kids-container .pregnant-element .optics-products li:hover,
+main .kids-container .pregnant-element .cosmetic-products li:hover,
+main .kids-container .pregnant-element .kids-products li:hover,
+main .kids-container .pregnant-element .pregnant-products li:hover,
+main .pregnant-container .optics-element .optics-products li:hover,
+main .pregnant-container .optics-element .cosmetic-products li:hover,
+main .pregnant-container .optics-element .kids-products li:hover,
+main .pregnant-container .optics-element .pregnant-products li:hover,
+main .pregnant-container .cosmetic-element .optics-products li:hover,
+main .pregnant-container .cosmetic-element .cosmetic-products li:hover,
+main .pregnant-container .cosmetic-element .kids-products li:hover,
+main .pregnant-container .cosmetic-element .pregnant-products li:hover,
+main .pregnant-container .kids-element .optics-products li:hover,
+main .pregnant-container .kids-element .cosmetic-products li:hover,
+main .pregnant-container .kids-element .kids-products li:hover,
+main .pregnant-container .kids-element .pregnant-products li:hover,
+main .pregnant-container .pregnant-element .optics-products li:hover,
+main .pregnant-container .pregnant-element .cosmetic-products li:hover,
+main .pregnant-container .pregnant-element .kids-products li:hover,
+main .pregnant-container .pregnant-element .pregnant-products li:hover {
+  transform: scale(1.02);
+}
+main .optics-container .optics-element .optics-products li .drug-image,
+main .optics-container .optics-element .cosmetic-products li .drug-image,
+main .optics-container .optics-element .kids-products li .drug-image,
+main .optics-container .optics-element .pregnant-products li .drug-image,
+main .optics-container .cosmetic-element .optics-products li .drug-image,
+main .optics-container .cosmetic-element .cosmetic-products li .drug-image,
+main .optics-container .cosmetic-element .kids-products li .drug-image,
+main .optics-container .cosmetic-element .pregnant-products li .drug-image,
+main .optics-container .kids-element .optics-products li .drug-image,
+main .optics-container .kids-element .cosmetic-products li .drug-image,
+main .optics-container .kids-element .kids-products li .drug-image,
+main .optics-container .kids-element .pregnant-products li .drug-image,
+main .optics-container .pregnant-element .optics-products li .drug-image,
+main .optics-container .pregnant-element .cosmetic-products li .drug-image,
+main .optics-container .pregnant-element .kids-products li .drug-image,
+main .optics-container .pregnant-element .pregnant-products li .drug-image,
+main .cosmetic-container .optics-element .optics-products li .drug-image,
+main .cosmetic-container .optics-element .cosmetic-products li .drug-image,
+main .cosmetic-container .optics-element .kids-products li .drug-image,
+main .cosmetic-container .optics-element .pregnant-products li .drug-image,
+main .cosmetic-container .cosmetic-element .optics-products li .drug-image,
+main .cosmetic-container .cosmetic-element .cosmetic-products li .drug-image,
+main .cosmetic-container .cosmetic-element .kids-products li .drug-image,
+main .cosmetic-container .cosmetic-element .pregnant-products li .drug-image,
+main .cosmetic-container .kids-element .optics-products li .drug-image,
+main .cosmetic-container .kids-element .cosmetic-products li .drug-image,
+main .cosmetic-container .kids-element .kids-products li .drug-image,
+main .cosmetic-container .kids-element .pregnant-products li .drug-image,
+main .cosmetic-container .pregnant-element .optics-products li .drug-image,
+main .cosmetic-container .pregnant-element .cosmetic-products li .drug-image,
+main .cosmetic-container .pregnant-element .kids-products li .drug-image,
+main .cosmetic-container .pregnant-element .pregnant-products li .drug-image,
+main .kids-container .optics-element .optics-products li .drug-image,
+main .kids-container .optics-element .cosmetic-products li .drug-image,
+main .kids-container .optics-element .kids-products li .drug-image,
+main .kids-container .optics-element .pregnant-products li .drug-image,
+main .kids-container .cosmetic-element .optics-products li .drug-image,
+main .kids-container .cosmetic-element .cosmetic-products li .drug-image,
+main .kids-container .cosmetic-element .kids-products li .drug-image,
+main .kids-container .cosmetic-element .pregnant-products li .drug-image,
+main .kids-container .kids-element .optics-products li .drug-image,
+main .kids-container .kids-element .cosmetic-products li .drug-image,
+main .kids-container .kids-element .kids-products li .drug-image,
+main .kids-container .kids-element .pregnant-products li .drug-image,
+main .kids-container .pregnant-element .optics-products li .drug-image,
+main .kids-container .pregnant-element .cosmetic-products li .drug-image,
+main .kids-container .pregnant-element .kids-products li .drug-image,
+main .kids-container .pregnant-element .pregnant-products li .drug-image,
+main .pregnant-container .optics-element .optics-products li .drug-image,
+main .pregnant-container .optics-element .cosmetic-products li .drug-image,
+main .pregnant-container .optics-element .kids-products li .drug-image,
+main .pregnant-container .optics-element .pregnant-products li .drug-image,
+main .pregnant-container .cosmetic-element .optics-products li .drug-image,
+main .pregnant-container .cosmetic-element .cosmetic-products li .drug-image,
+main .pregnant-container .cosmetic-element .kids-products li .drug-image,
+main .pregnant-container .cosmetic-element .pregnant-products li .drug-image,
+main .pregnant-container .kids-element .optics-products li .drug-image,
+main .pregnant-container .kids-element .cosmetic-products li .drug-image,
+main .pregnant-container .kids-element .kids-products li .drug-image,
+main .pregnant-container .kids-element .pregnant-products li .drug-image,
+main .pregnant-container .pregnant-element .optics-products li .drug-image,
+main .pregnant-container .pregnant-element .cosmetic-products li .drug-image,
+main .pregnant-container .pregnant-element .kids-products li .drug-image,
+main .pregnant-container .pregnant-element .pregnant-products li .drug-image {
+  width: 220px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+main .optics-container .optics-element .optics-products li .drug-image img,
+main .optics-container .optics-element .cosmetic-products li .drug-image img,
+main .optics-container .optics-element .kids-products li .drug-image img,
+main .optics-container .optics-element .pregnant-products li .drug-image img,
+main .optics-container .cosmetic-element .optics-products li .drug-image img,
+main .optics-container .cosmetic-element .cosmetic-products li .drug-image img,
+main .optics-container .cosmetic-element .kids-products li .drug-image img,
+main .optics-container .cosmetic-element .pregnant-products li .drug-image img,
+main .optics-container .kids-element .optics-products li .drug-image img,
+main .optics-container .kids-element .cosmetic-products li .drug-image img,
+main .optics-container .kids-element .kids-products li .drug-image img,
+main .optics-container .kids-element .pregnant-products li .drug-image img,
+main .optics-container .pregnant-element .optics-products li .drug-image img,
+main .optics-container .pregnant-element .cosmetic-products li .drug-image img,
+main .optics-container .pregnant-element .kids-products li .drug-image img,
+main .optics-container .pregnant-element .pregnant-products li .drug-image img,
+main .cosmetic-container .optics-element .optics-products li .drug-image img,
+main .cosmetic-container .optics-element .cosmetic-products li .drug-image img,
+main .cosmetic-container .optics-element .kids-products li .drug-image img,
+main .cosmetic-container .optics-element .pregnant-products li .drug-image img,
+main .cosmetic-container .cosmetic-element .optics-products li .drug-image img,
+main .cosmetic-container .cosmetic-element .cosmetic-products li .drug-image img,
+main .cosmetic-container .cosmetic-element .kids-products li .drug-image img,
+main .cosmetic-container .cosmetic-element .pregnant-products li .drug-image img,
+main .cosmetic-container .kids-element .optics-products li .drug-image img,
+main .cosmetic-container .kids-element .cosmetic-products li .drug-image img,
+main .cosmetic-container .kids-element .kids-products li .drug-image img,
+main .cosmetic-container .kids-element .pregnant-products li .drug-image img,
+main .cosmetic-container .pregnant-element .optics-products li .drug-image img,
+main .cosmetic-container .pregnant-element .cosmetic-products li .drug-image img,
+main .cosmetic-container .pregnant-element .kids-products li .drug-image img,
+main .cosmetic-container .pregnant-element .pregnant-products li .drug-image img,
+main .kids-container .optics-element .optics-products li .drug-image img,
+main .kids-container .optics-element .cosmetic-products li .drug-image img,
+main .kids-container .optics-element .kids-products li .drug-image img,
+main .kids-container .optics-element .pregnant-products li .drug-image img,
+main .kids-container .cosmetic-element .optics-products li .drug-image img,
+main .kids-container .cosmetic-element .cosmetic-products li .drug-image img,
+main .kids-container .cosmetic-element .kids-products li .drug-image img,
+main .kids-container .cosmetic-element .pregnant-products li .drug-image img,
+main .kids-container .kids-element .optics-products li .drug-image img,
+main .kids-container .kids-element .cosmetic-products li .drug-image img,
+main .kids-container .kids-element .kids-products li .drug-image img,
+main .kids-container .kids-element .pregnant-products li .drug-image img,
+main .kids-container .pregnant-element .optics-products li .drug-image img,
+main .kids-container .pregnant-element .cosmetic-products li .drug-image img,
+main .kids-container .pregnant-element .kids-products li .drug-image img,
+main .kids-container .pregnant-element .pregnant-products li .drug-image img,
+main .pregnant-container .optics-element .optics-products li .drug-image img,
+main .pregnant-container .optics-element .cosmetic-products li .drug-image img,
+main .pregnant-container .optics-element .kids-products li .drug-image img,
+main .pregnant-container .optics-element .pregnant-products li .drug-image img,
+main .pregnant-container .cosmetic-element .optics-products li .drug-image img,
+main .pregnant-container .cosmetic-element .cosmetic-products li .drug-image img,
+main .pregnant-container .cosmetic-element .kids-products li .drug-image img,
+main .pregnant-container .cosmetic-element .pregnant-products li .drug-image img,
+main .pregnant-container .kids-element .optics-products li .drug-image img,
+main .pregnant-container .kids-element .cosmetic-products li .drug-image img,
+main .pregnant-container .kids-element .kids-products li .drug-image img,
+main .pregnant-container .kids-element .pregnant-products li .drug-image img,
+main .pregnant-container .pregnant-element .optics-products li .drug-image img,
+main .pregnant-container .pregnant-element .cosmetic-products li .drug-image img,
+main .pregnant-container .pregnant-element .kids-products li .drug-image img,
+main .pregnant-container .pregnant-element .pregnant-products li .drug-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+main .optics-container .optics-element .optics-products li .drugs-text,
+main .optics-container .optics-element .cosmetic-products li .drugs-text,
+main .optics-container .optics-element .kids-products li .drugs-text,
+main .optics-container .optics-element .pregnant-products li .drugs-text,
+main .optics-container .cosmetic-element .optics-products li .drugs-text,
+main .optics-container .cosmetic-element .cosmetic-products li .drugs-text,
+main .optics-container .cosmetic-element .kids-products li .drugs-text,
+main .optics-container .cosmetic-element .pregnant-products li .drugs-text,
+main .optics-container .kids-element .optics-products li .drugs-text,
+main .optics-container .kids-element .cosmetic-products li .drugs-text,
+main .optics-container .kids-element .kids-products li .drugs-text,
+main .optics-container .kids-element .pregnant-products li .drugs-text,
+main .optics-container .pregnant-element .optics-products li .drugs-text,
+main .optics-container .pregnant-element .cosmetic-products li .drugs-text,
+main .optics-container .pregnant-element .kids-products li .drugs-text,
+main .optics-container .pregnant-element .pregnant-products li .drugs-text,
+main .cosmetic-container .optics-element .optics-products li .drugs-text,
+main .cosmetic-container .optics-element .cosmetic-products li .drugs-text,
+main .cosmetic-container .optics-element .kids-products li .drugs-text,
+main .cosmetic-container .optics-element .pregnant-products li .drugs-text,
+main .cosmetic-container .cosmetic-element .optics-products li .drugs-text,
+main .cosmetic-container .cosmetic-element .cosmetic-products li .drugs-text,
+main .cosmetic-container .cosmetic-element .kids-products li .drugs-text,
+main .cosmetic-container .cosmetic-element .pregnant-products li .drugs-text,
+main .cosmetic-container .kids-element .optics-products li .drugs-text,
+main .cosmetic-container .kids-element .cosmetic-products li .drugs-text,
+main .cosmetic-container .kids-element .kids-products li .drugs-text,
+main .cosmetic-container .kids-element .pregnant-products li .drugs-text,
+main .cosmetic-container .pregnant-element .optics-products li .drugs-text,
+main .cosmetic-container .pregnant-element .cosmetic-products li .drugs-text,
+main .cosmetic-container .pregnant-element .kids-products li .drugs-text,
+main .cosmetic-container .pregnant-element .pregnant-products li .drugs-text,
+main .kids-container .optics-element .optics-products li .drugs-text,
+main .kids-container .optics-element .cosmetic-products li .drugs-text,
+main .kids-container .optics-element .kids-products li .drugs-text,
+main .kids-container .optics-element .pregnant-products li .drugs-text,
+main .kids-container .cosmetic-element .optics-products li .drugs-text,
+main .kids-container .cosmetic-element .cosmetic-products li .drugs-text,
+main .kids-container .cosmetic-element .kids-products li .drugs-text,
+main .kids-container .cosmetic-element .pregnant-products li .drugs-text,
+main .kids-container .kids-element .optics-products li .drugs-text,
+main .kids-container .kids-element .cosmetic-products li .drugs-text,
+main .kids-container .kids-element .kids-products li .drugs-text,
+main .kids-container .kids-element .pregnant-products li .drugs-text,
+main .kids-container .pregnant-element .optics-products li .drugs-text,
+main .kids-container .pregnant-element .cosmetic-products li .drugs-text,
+main .kids-container .pregnant-element .kids-products li .drugs-text,
+main .kids-container .pregnant-element .pregnant-products li .drugs-text,
+main .pregnant-container .optics-element .optics-products li .drugs-text,
+main .pregnant-container .optics-element .cosmetic-products li .drugs-text,
+main .pregnant-container .optics-element .kids-products li .drugs-text,
+main .pregnant-container .optics-element .pregnant-products li .drugs-text,
+main .pregnant-container .cosmetic-element .optics-products li .drugs-text,
+main .pregnant-container .cosmetic-element .cosmetic-products li .drugs-text,
+main .pregnant-container .cosmetic-element .kids-products li .drugs-text,
+main .pregnant-container .cosmetic-element .pregnant-products li .drugs-text,
+main .pregnant-container .kids-element .optics-products li .drugs-text,
+main .pregnant-container .kids-element .cosmetic-products li .drugs-text,
+main .pregnant-container .kids-element .kids-products li .drugs-text,
+main .pregnant-container .kids-element .pregnant-products li .drugs-text,
+main .pregnant-container .pregnant-element .optics-products li .drugs-text,
+main .pregnant-container .pregnant-element .cosmetic-products li .drugs-text,
+main .pregnant-container .pregnant-element .kids-products li .drugs-text,
+main .pregnant-container .pregnant-element .pregnant-products li .drugs-text {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  color: white;
+  height: 100px;
+}
+main .carousels-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .carousels-container .carousels-element {
+  width: 80%;
+  height: 500px;
+  display: flex;
+}
+@media screen and (max-width: 1024px) {
+  main .carousels-container .carousels-element {
+    flex-direction: column;
+    height: 1000px;
+    gap: 270px;
+  }
+}
+main .carousels-container .carousels-element .carousel-left-side,
+main .carousels-container .carousels-element .carousel-right-side {
+  width: 50%;
+  display: flex;
+}
+@media screen and (max-width: 1024px) {
+  main .carousels-container .carousels-element .carousel-left-side,
+  main .carousels-container .carousels-element .carousel-right-side {
+    display: block;
+    width: 100%;
+  }
+}
+main .carousels-container .carousels-element .carousel-left-side h3,
+main .carousels-container .carousels-element .carousel-right-side h3 {
+  margin-top: 50px;
+  cursor: pointer;
+  text-decoration: underline;
+  height: 25px;
+}
+main .carousels-container .carousels-element .carousel-left-side .discounted-products,
+main .carousels-container .carousels-element .carousel-left-side .most-viewed-products,
+main .carousels-container .carousels-element .carousel-right-side .discounted-products,
+main .carousels-container .carousels-element .carousel-right-side .most-viewed-products {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-top: 140px;
+}
+main .carousels-container .carousels-element .carousel-left-side .discounted-products .carousel__item,
+main .carousels-container .carousels-element .carousel-left-side .most-viewed-products .carousel__item,
+main .carousels-container .carousels-element .carousel-right-side .discounted-products .carousel__item,
+main .carousels-container .carousels-element .carousel-right-side .most-viewed-products .carousel__item {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 350px;
+  height: 150px;
+  opacity: 0;
+  gap: 10px;
+  background-color: #00994a;
+  border-radius: 10px;
+  padding: 10px;
+  will-change: transform, opacity;
+  animation: carousel-animate-vertical var(--animation-timing) linear infinite;
+}
+@media screen and (max-width: 768px) {
+  main .carousels-container .carousels-element .carousel-left-side .discounted-products .carousel__item,
+  main .carousels-container .carousels-element .carousel-left-side .most-viewed-products .carousel__item,
+  main .carousels-container .carousels-element .carousel-right-side .discounted-products .carousel__item,
+  main .carousels-container .carousels-element .carousel-right-side .most-viewed-products .carousel__item {
+    width: 300px;
+  }
+}
+main .carousels-container .carousels-element .carousel-left-side .discounted-products .carousel__item .carousel__image,
+main .carousels-container .carousels-element .carousel-left-side .most-viewed-products .carousel__item .carousel__image,
+main .carousels-container .carousels-element .carousel-right-side .discounted-products .carousel__item .carousel__image,
+main .carousels-container .carousels-element .carousel-right-side .most-viewed-products .carousel__item .carousel__image {
+  width: 40%;
+  border-radius: 10px;
+}
+main .carousels-container .carousels-element .carousel-left-side .discounted-products .carousel__item .carousel__image img,
+main .carousels-container .carousels-element .carousel-left-side .most-viewed-products .carousel__item .carousel__image img,
+main .carousels-container .carousels-element .carousel-right-side .discounted-products .carousel__item .carousel__image img,
+main .carousels-container .carousels-element .carousel-right-side .most-viewed-products .carousel__item .carousel__image img {
+  width: 100%;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+main .carousels-container .carousels-element .carousel-left-side .discounted-products .carousel__item .carousel__text,
+main .carousels-container .carousels-element .carousel-left-side .most-viewed-products .carousel__item .carousel__text,
+main .carousels-container .carousels-element .carousel-right-side .discounted-products .carousel__item .carousel__text,
+main .carousels-container .carousels-element .carousel-right-side .most-viewed-products .carousel__item .carousel__text {
+  width: 60%;
+  height: 200px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px;
+}
+main .carousels-container .carousels-element .carousel-left-side .discounted-products .carousel__item .carousel__text li del,
+main .carousels-container .carousels-element .carousel-left-side .most-viewed-products .carousel__item .carousel__text li del,
+main .carousels-container .carousels-element .carousel-right-side .discounted-products .carousel__item .carousel__text li del,
+main .carousels-container .carousels-element .carousel-right-side .most-viewed-products .carousel__item .carousel__text li del {
+  color: red;
+}
+main .carousels-container .carousels-element .carousel-left-side .discounted-products .carousel__item .carousel__text li h3,
+main .carousels-container .carousels-element .carousel-left-side .most-viewed-products .carousel__item .carousel__text li h3,
+main .carousels-container .carousels-element .carousel-right-side .discounted-products .carousel__item .carousel__text li h3,
+main .carousels-container .carousels-element .carousel-right-side .most-viewed-products .carousel__item .carousel__text li h3 {
+  color: white;
+  text-decoration: none;
+}
+main .carousels-container .carousels-element .carousel-left-side .discounted-products .carousel__item .carousel__text li p,
+main .carousels-container .carousels-element .carousel-left-side .most-viewed-products .carousel__item .carousel__text li p,
+main .carousels-container .carousels-element .carousel-right-side .discounted-products .carousel__item .carousel__text li p,
+main .carousels-container .carousels-element .carousel-right-side .most-viewed-products .carousel__item .carousel__text li p {
+  color: white;
+}
+main .carousels-container .carousels-element .carousel-left-side .discounted-products .carousel__item:nth-child(1),
+main .carousels-container .carousels-element .carousel-left-side .most-viewed-products .carousel__item:nth-child(1),
+main .carousels-container .carousels-element .carousel-right-side .discounted-products .carousel__item:nth-child(1),
+main .carousels-container .carousels-element .carousel-right-side .most-viewed-products .carousel__item:nth-child(1) {
+  animation-delay: calc(var(--animation-delay-fraction) * 0);
+}
+main .carousels-container .carousels-element .carousel-left-side .discounted-products .carousel__item:nth-child(2),
+main .carousels-container .carousels-element .carousel-left-side .most-viewed-products .carousel__item:nth-child(2),
+main .carousels-container .carousels-element .carousel-right-side .discounted-products .carousel__item:nth-child(2),
+main .carousels-container .carousels-element .carousel-right-side .most-viewed-products .carousel__item:nth-child(2) {
+  animation-delay: calc(var(--animation-delay-fraction) * 1);
+}
+main .carousels-container .carousels-element .carousel-left-side .discounted-products .carousel__item:nth-child(3),
+main .carousels-container .carousels-element .carousel-left-side .most-viewed-products .carousel__item:nth-child(3),
+main .carousels-container .carousels-element .carousel-right-side .discounted-products .carousel__item:nth-child(3),
+main .carousels-container .carousels-element .carousel-right-side .most-viewed-products .carousel__item:nth-child(3) {
+  animation-delay: calc(var(--animation-delay-fraction) * 2);
+}
+main .carousels-container .carousels-element .carousel-left-side .discounted-products .carousel__item:nth-child(4),
+main .carousels-container .carousels-element .carousel-left-side .most-viewed-products .carousel__item:nth-child(4),
+main .carousels-container .carousels-element .carousel-right-side .discounted-products .carousel__item:nth-child(4),
+main .carousels-container .carousels-element .carousel-right-side .most-viewed-products .carousel__item:nth-child(4) {
+  animation-delay: calc(var(--animation-delay-fraction) * 3);
+}
+main .carousels-container .carousels-element .carousel-left-side .discounted-products .carousel__item:nth-child(5),
+main .carousels-container .carousels-element .carousel-left-side .most-viewed-products .carousel__item:nth-child(5),
+main .carousels-container .carousels-element .carousel-right-side .discounted-products .carousel__item:nth-child(5),
+main .carousels-container .carousels-element .carousel-right-side .most-viewed-products .carousel__item:nth-child(5) {
+  animation-delay: calc(var(--animation-delay-fraction) * 4);
+}
+main .carousels-container .carousels-element .carousel-left-side .discounted-products .carousel__item:nth-child(6),
+main .carousels-container .carousels-element .carousel-left-side .most-viewed-products .carousel__item:nth-child(6),
+main .carousels-container .carousels-element .carousel-right-side .discounted-products .carousel__item:nth-child(6),
+main .carousels-container .carousels-element .carousel-right-side .most-viewed-products .carousel__item:nth-child(6) {
+  animation-delay: calc(var(--animation-delay-fraction) * 5);
+}
+main .carousels-container .carousels-element .carousel-left-side .discounted-products .carousel__item:nth-child(7),
+main .carousels-container .carousels-element .carousel-left-side .most-viewed-products .carousel__item:nth-child(7),
+main .carousels-container .carousels-element .carousel-right-side .discounted-products .carousel__item:nth-child(7),
+main .carousels-container .carousels-element .carousel-right-side .most-viewed-products .carousel__item:nth-child(7) {
+  animation-delay: calc(var(--animation-delay-fraction) * 6);
+}
+main .carousels-container .carousels-element .carousel-left-side .discounted-products .carousel__item:nth-child(8),
+main .carousels-container .carousels-element .carousel-left-side .most-viewed-products .carousel__item:nth-child(8),
+main .carousels-container .carousels-element .carousel-right-side .discounted-products .carousel__item:nth-child(8),
+main .carousels-container .carousels-element .carousel-right-side .most-viewed-products .carousel__item:nth-child(8) {
+  animation-delay: calc(var(--animation-delay-fraction) * 7);
+}
+main .carousels-container .carousels-element .carousel-left-side .discounted-products .carousel__item:nth-child(9),
+main .carousels-container .carousels-element .carousel-left-side .most-viewed-products .carousel__item:nth-child(9),
+main .carousels-container .carousels-element .carousel-right-side .discounted-products .carousel__item:nth-child(9),
+main .carousels-container .carousels-element .carousel-right-side .most-viewed-products .carousel__item:nth-child(9) {
+  animation-delay: calc(var(--animation-delay-fraction) * 8);
+}
+main .carousels-container .carousels-element .carousel-left-side .discounted-products .carousel__item:nth-child(10),
+main .carousels-container .carousels-element .carousel-left-side .most-viewed-products .carousel__item:nth-child(10),
+main .carousels-container .carousels-element .carousel-right-side .discounted-products .carousel__item:nth-child(10),
+main .carousels-container .carousels-element .carousel-right-side .most-viewed-products .carousel__item:nth-child(10) {
+  animation-delay: calc(var(--animation-delay-fraction) * 9);
+}
+@keyframes carousel-animate-vertical {
+  0% {
+    transform: translateY(100%) scale(0.5);
+    opacity: 0;
+    visibility: hidden;
+  }
+  3%, 11.11% {
+    transform: translateY(100%) scale(0.7);
+    opacity: 0.4;
+    visibility: visible;
+  }
+  14.11%, 22.22% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+    visibility: visible;
+  }
+  25.22%, 33.33% {
+    transform: translateY(-100%) scale(0.7);
+    opacity: 0.4;
+    visibility: visible;
+  }
+  36.33% {
+    transform: translateY(-100%) scale(0.5);
+    opacity: 0;
+    visibility: visible;
+  }
+  100% {
+    transform: translateY(-100%) scale(0.5);
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+main .all-drugs-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+main .all-drugs-container .all-drugs-element {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+main .all-drugs-container .all-drugs-element h3 {
+  cursor: pointer;
+  text-decoration: underline;
+  height: 25px;
+}
+main .all-drugs-container .all-drugs-element .all-drugs {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+main .all-drugs-container .all-drugs-element .all-drugs li {
+  width: 220px;
+  height: 320px;
+  background-color: #00994a;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all 0.5s ease-in-out;
+}
+main .all-drugs-container .all-drugs-element .all-drugs li:hover {
+  transform: scale(1.02);
+}
+main .all-drugs-container .all-drugs-element .all-drugs li .drug-image {
+  width: 220px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+main .all-drugs-container .all-drugs-element .all-drugs li .drug-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+main .all-drugs-container .all-drugs-element .all-drugs li .drugs-text {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  color: white;
+  height: 100px;
+}
+main .all-drugs-container .pagination-controls {
+  display: flex;
+  gap: 5px;
+}
+main .all-drugs-container .pagination-controls .page-number {
+  width: 25px;
+  height: 25px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+  font-family: "Poppins";
+  cursor: pointer;
+}
+main .all-drugs-container .slider {
+  width: 80%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .all-drugs-container .slider h3 {
+  cursor: pointer;
+  text-decoration: underline;
+  height: 25px;
+}
+main .all-drugs-container .slider .slider-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: 210px;
+  overflow-x: scroll;
+}
+main .all-drugs-container .slider .slider-container::-webkit-scrollbar {
+  display: none;
+}
+main .all-drugs-container .slider .slider-container img {
+  width: 300px;
+  height: 200px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  border-radius: 10px;
+}
+main .all-drugs-container .slider .slider-container img:hover {
+  transform: scale(1.02);
+}
+main .doctors-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 110px;
+}
+main .doctors-container .doctors-element {
+  width: 80%;
+  padding-top: 30px;
+  display: flex;
+}
+@media screen and (max-width: 800px) {
+  main .doctors-container .doctors-element {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+main .doctors-container .doctors-element .left-side-doctors {
+  width: 20%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+@media screen and (max-width: 800px) {
+  main .doctors-container .doctors-element .left-side-doctors {
+    width: 100%;
+    align-items: center;
+  }
+}
+main .doctors-container .doctors-element .left-side-doctors h3 {
+  text-decoration: underline;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+main .doctors-container .doctors-element .left-side-doctors li p {
+  font-size: 16px;
+  font-style: italic;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+main .doctors-container .doctors-element .left-side-doctors li p:hover {
+  transform: scale(1.01);
+}
+main .doctors-container .doctors-element .right-side-doctors {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  width: 80%;
+}
+@media screen and (max-width: 800px) {
+  main .doctors-container .doctors-element .right-side-doctors {
+    width: 100%;
+  }
+}
+main .doctors-container .doctors-element .right-side-doctors li {
+  width: 220px;
+  height: 320px;
+  background-color: #00994a;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all 0.5s ease-in-out;
+}
+main .doctors-container .doctors-element .right-side-doctors li:hover {
+  transform: scale(1.02);
+}
+main .doctors-container .doctors-element .right-side-doctors li .drug-image {
+  width: 220px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+main .doctors-container .doctors-element .right-side-doctors li .drug-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+main .doctors-container .doctors-element .right-side-doctors li .drugs-text {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  color: white;
+  height: 100px;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #007378;
+}
+footer .footer-element {
+  width: 80%;
+  padding: 60px 0 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+@media screen and (max-width: 768px) {
+  footer .footer-element {
+    justify-content: unset;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
+footer .footer-element .left-side-in-footer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+@media screen and (max-width: 768px) {
+  footer .footer-element .left-side-in-footer {
+    width: 100%;
+    align-items: center;
+  }
+}
+footer .footer-element .left-side-in-footer .footer-logo-image {
+  width: 150px;
+}
+footer .footer-element .left-side-in-footer .footer-logo-image img {
+  width: 100%;
+}
+footer .footer-element .left-side-in-footer .footer-text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer-element .left-side-in-footer .footer-text .contact-in-footer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+@media screen and (max-width: 768px) {
+  footer .footer-element .left-side-in-footer .footer-text .contact-in-footer {
+    justify-content: center;
+  }
+}
+footer .footer-element .right-side-in-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  width: 50%;
+}
+@media screen and (max-width: 768px) {
+  footer .footer-element .right-side-in-footer {
+    width: 100%;
+    align-items: center;
+  }
+}
+footer .footer-element .right-side-in-footer h3 {
+  height: 25px;
+  color: white;
+  text-decoration: underline;
+}
+footer .footer-element .right-side-in-footer .address-element {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+@media screen and (max-width: 768px) {
+  footer .footer-element .right-side-in-footer .address-element {
+    flex-direction: column;
+  }
+}
+footer .footer-element .right-side-in-footer .address-element li {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer-element .right-side-in-footer .address-element li a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+footer .footer-element .right-side-in-footer .address-element li a:hover {
+  transform: scale(1.03);
+}/*# sourceMappingURL=home.css.map */

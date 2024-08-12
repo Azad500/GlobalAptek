@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GlobalAptek</title>
+    <link rel="icon" type="image/png" href="./images/logo/globalAptek.png" />
+    <link rel="stylesheet" href="./home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ----------header--------- -->
+    <header>
+      <!-- ---------up-side-in-header------- -->
+      <div class="up-side-in-header">
+        <!-- ----------navbar--------- -->
+        <nav class="navbar">
+          <div class="navbar-elements">
+            <div class="left-side-in-navbar">
+              <div class="logo">
+                <img src="./images/logo/globalAptek.png" alt="logo" />
+              </div>
+              <!-- ----------map--------- -->
+              <a
+                class="location"
+                target="_blank"
+                href="https://www.google.com/maps/@40.3856828,49.8203016,15z?entry=ttu"
+              >
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Ünvanlar</p>
+              </a>
+              <div class="mobile-company-name">
+                <h2>Global Aptek</h2>
+              </div>
+            </div>
+            <div class="center-side-in-navbar">
+              <h1>Global Aptek</h1>
+            </div>
+            <div class="right-side-in-navbar">
+              <div class="contact-info-in-navbar">
+                <!-- ----------phone--------- -->
+                <a href="callto:*7788">
+                  <i class="fa-solid fa-phone"></i>
+                  <p>*7788</p>
+                </a>
+                <!-- ----------email--------- -->
+                <a target="_blank" href="mailto:globalAptek@gmail">
+                  <i class="fa-solid fa-envelope"></i>
+                  <p>globalAptek@gmail.com</p>
+                </a>
+              </div>
+              <!-- ----------menu-bar--------- -->
+              <div class="menu-bar">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- -----------center--------- -->
+        <ul class="center-in-header">
+          <li class="buyDrug-con">
+            <p class="buyDrug">Dərman al</p>
+          </li>
+          <li class="findDoc-con">
+            <p class="findDoc">Həkimləri tapın</p>
+          </li>
+          <li class="notesHealty-con">
+            <p class="notesHealty">Sağlamlıq qeydləri</p>
+          </li>
+        </ul>
+        <!-- -----------down-side-in-navbar--------- -->
+        <ul class="down-side-in-navbar">
+          <li>
+            <p class="drugs">Dərmanlar</p>
+            <p class="optica">Optik Məhsullar</p>
+            <p class="cosmetic">Kosmetik Vasitələr</p>
+          </li>
+          <li>
+            <p class="kid">Uşaq</p>
+            <p class="pregnant">Hamiləlik</p>
+          </li>
+        </ul>
+      </div>
+      <!-- ---------down-side-in-header------- -->
+      <div class="down-side-in-header">
+        <div class="overlay"></div>
+        <!-- ---------header-image------- -->
+        <div class="header-image">
+          <img src="./images/cardImages/pharmacy1.png" alt="header image" />
+        </div>
+        <!-- ---------header-text-and-search------- -->
+        <div class="header-text-and-search">
+          <div class="header-text">
+            <h2>Sağlamlığınızı Qoruyun!</h2>
+          </div>
+          <div class="search-part">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" name="search" id="search" placeholder="Axtar" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- -----------pregnant--------- -->
+      <section class="pregnant-container">
+        <div class="pregnant-element">
+          <h3>Hamilələr üçün Məhsullar</h3>
+          <ul class="pregnant-products"></ul>
+        </div>
+      </section>
+      <!-- -----------kids--------- -->
+      <section class="kids-container">
+        <div class="kids-element">
+          <h3>Uşaq üçün Məhsullar</h3>
+          <ul class="kids-products"></ul>
+        </div>
+      </section>
+      <!-- -----------cosmetic--------- -->
+      <section class="cosmetic-container">
+        <div class="cosmetic-element">
+          <h3>Kosmetik Məhsullar</h3>
+          <ul class="cosmetic-products"></ul>
+        </div>
+      </section>
+      <!-- -----------optics--------- -->
+      <section class="optics-container">
+        <div class="optics-element">
+          <h3>Optik Məhsullar</h3>
+          <ul class="optics-products"></ul>
+        </div>
+      </section>
+      <!-- ------------carousel--------- -->
+      <section class="carousels-container">
+        <div class="carousels-element">
+          <!-- --------carousel-left-side------- -->
+          <div class="carousel-left-side">
+            <h3>Endirimli Məhsullar</h3>
+            <ul class="discounted-products"></ul>
+          </div>
+          <!-- --------carousel-right-side------- -->
+          <div class="carousel-right-side">
+            <h3>Ən Çox Baxılan Məhsullar</h3>
+            <ul class="most-viewed-products"></ul>
+          </div>
+        </div>
+      </section>
+      <section class="all-drugs-container">
+        <!-- --------all-drugs-------- -->
+        <div class="all-drugs-element">
+          <h3>Bütün Dərmanlar</h3>
+          <ul class="all-drugs"></ul>
+        </div>
+        <div class="pagination-controls"></div>
+        <div class="slider">
+          <h3>Brendlər</h3>
+          <div class="slider-container"></div>
+        </div>
+      </section>
+      <!-- --------------dostors--------- -->
+      <section class="doctors-container">
+        <div class="doctors-element">
+          <!-- -------left-side------ -->
+          <ul class="left-side-doctors">
+            <h3 class="all-doctors">Həkimlər</h3>
+          </ul>
+          <!-- -------right-side------ -->
+          <ul class="right-side-doctors"></ul>
+        </div>
+      </section>
+    </main>
+    <!-- ------------footer----------- -->
+    <footer>
+      <section class="footer-element">
+        <div class="left-side-in-footer">
+          <div class="footer-logo-image">
+            <img src="./images/logo/globalAptek.png" alt="logo footer" />
+          </div>
+          <div class="footer-text">
+            <h4>Sağlamlığınızı Qoruyun!</h4>
+            <div class="contact-in-footer">
+              <i class="fa-solid fa-phone"></i>
+              <p>*7788</p>
+            </div>
+          </div>
+        </div>
+        <div class="right-side-in-footer">
+          <h3>Ünvanlar</h3>
+          <ul class="address-element">
+            <li>
+              <a href="">Nərimanov rayonu</a>
+              <a href="">Yasamal rayonu</a>
+              <a href="">Xətai rayonu</a>
+            </li>
+            <li>
+              <a href="">Binəqədi rayonu</a>
+              <a href="">Qaradağ rayonu</a>
+              <a href="">Xəzər rayonu</a>
+            </li>
+            <li>
+              <a href="">Sabunçu rayonu</a>
+              <a href="">Səbail rayonu</a>
+              <a href="">Suraxanı rayonu</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+    <script src="./home.js"></script>
+  </body>
+</html>

@@ -1,0 +1,839 @@
+@import "./responsive.scss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --animation-timing: 15s;
+  --carousel-items: 9;
+  --animation-delay-fraction: calc(
+    var(--animation-timing) / var(--carousel-items)
+  );
+  --animation-steps-fraction: calc(100% / var(--carousel-items));
+  --slide-change-timing: 3%;
+  --hundred-width: 100%;
+  --zero-width: 0%;
+}
+// ----------header---------
+header {
+  width: 100%;
+  //   ---------up-side-in-header---------
+  .up-side-in-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    // ---------navbar---------
+    .navbar {
+      width: 100%;
+      background-color: #007378;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 0;
+      .navbar-elements {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // ---------left-side---------
+        .left-side-in-navbar {
+          display: flex;
+          align-items: center;
+          gap: 15px;
+          @include responsive768 {
+            gap: 5px;
+          }
+          .logo {
+            width: 40px;
+            img {
+              width: 100%;
+            }
+          }
+          // --------location--------
+          .location {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            gap: 5px;
+            transition: all 0.3s ease-in-out;
+            @include responsive768 {
+              display: none;
+            }
+            &:hover {
+              transform: scale(1.05);
+            }
+            i {
+              font-size: 12px;
+            }
+            p {
+              font-size: 12px;
+              font-family: inherit;
+            }
+          }
+          .mobile-company-name {
+            display: none;
+            @include responsive768 {
+              display: block;
+              color: white;
+              font-family: inherit;
+              font-style: italic;
+              font-size: 12px;
+            }
+          }
+        }
+        // ------center-in-navbar--------
+        .center-side-in-navbar {
+          @include responsive768 {
+            display: none;
+          }
+          h1 {
+            color: white;
+            font-family: inherit;
+            font-style: italic;
+          }
+        }
+        // ---------right-side---------
+        .right-side-in-navbar {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          // --------contact-info-in-navbar--------
+          .contact-info-in-navbar {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+            @include responsive768 {
+              display: none;
+            }
+            a {
+              text-decoration: none;
+              display: flex;
+              align-items: center;
+              gap: 5px;
+              color: white;
+              transition: all 0.3s ease-in-out;
+              &:hover {
+                transform: scale(1.05);
+              }
+              i {
+                font-size: 12px;
+              }
+              p {
+                font-size: 12px;
+                font-family: inherit;
+              }
+            }
+          }
+          // --------menu-bar--------
+          .menu-bar {
+            display: none;
+            @include responsive768 {
+              display: block;
+            }
+            i {
+              color: white;
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+    // --------center-in-header--------
+    .center-in-header {
+      width: 100%;
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      padding: 10px 0;
+      background-color: #00876b;
+      border: 1px solid black;
+      border-right: none;
+      border-left: none;
+      li {
+        transition: all 0.3s ease-in-out;
+        &::after {
+          content: "";
+          width: 0;
+          height: 2px;
+          background-color: white;
+          display: block;
+          margin: auto;
+          transition: all 0.3s ease-in-out;
+        }
+        &:hover::after {
+          width: var(--hundred-width);
+        }
+        &:hover {
+          transform: scale(1.05);
+        }
+        p {
+          text-decoration: none;
+          color: white;
+          font-size: 16px;
+          cursor: pointer;
+          @include responsive768 {
+            font-size: 12px;
+          }
+        }
+      }
+      .buyDrug-con::after {
+        width: var(--hundred-width);
+      }
+      .findDoc-con::after {
+        width: var(--zero-width);
+      }
+      .notesHealty-con::after {
+        width: var(--zero-width);
+      }
+    }
+    // -----------doün-side-in-navbar--------
+    .down-side-in-navbar {
+      width: 100%;
+      height: 50px;
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      background-color: #00994a;
+      border-bottom: 1px solid black;
+      @include responsive768 {
+        height: auto;
+        padding: 10px;
+      }
+      li {
+        transition: all 0.3s ease-in-out;
+        display: flex;
+        gap: 20px;
+        @include responsive614 {
+          flex-direction: column;
+        }
+        p {
+          display: block;
+          padding: 5px 15px;
+          text-decoration: none;
+          color: white;
+          font-size: 16px;
+          border: 1px solid black;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: all 0.5s ease-in-out;
+          @include responsive768 {
+            font-size: 12px;
+          }
+          &:hover {
+            transform: scale(1.02);
+            background-color: #00876b;
+          }
+        }
+      }
+    }
+  }
+  //   ---------down-side-in-header---------
+  .down-side-in-header {
+    width: 100%;
+    position: relative;
+    margin-top: 150px;
+    @include responsive614 {
+      margin-top: 250px;
+    }
+    .overlay {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 300px;
+      z-index: 1;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+    // ---------header-image--------
+    .header-image {
+      width: 100%;
+      height: 300px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    // ---------header-text-and-search--------
+    .header-text-and-search {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      //   ------header-text------
+      .header-text {
+        h2 {
+          font-family: inherit;
+          color: white;
+          letter-spacing: 3px;
+          font-size: 34px;
+        }
+      }
+      //   ----------search--------
+      .search-part {
+        position: relative;
+        i {
+          position: absolute;
+          top: 50%;
+          left: 10px;
+          transform: translateY(-50%);
+          font-size: 20px;
+          cursor: pointer;
+          transition: all 0.3s ease-in-out;
+          &:hover {
+            transform: translateY(-50%) scale(1.1);
+          }
+        }
+        input {
+          width: 100%;
+          padding: 15px 10px 15px 40px;
+          border-radius: 10px;
+          border: none;
+        }
+      }
+    }
+  }
+}
+// -----------main----------
+main {
+  width: 100%;
+  background-color: #e3f8ed;
+  padding-bottom: 20px;
+  // ----------optics---------
+  .optics-container,
+  .cosmetic-container,
+  .kids-container,
+  .pregnant-container {
+    width: 100%;
+    display: none;
+    justify-content: center;
+    margin-bottom: 50px;
+    .optics-element,
+    .cosmetic-element,
+    .kids-element,
+    .pregnant-element {
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      h3 {
+        margin-top: 50px;
+        cursor: pointer;
+        text-decoration: underline;
+        height: 25px;
+      }
+      .optics-products,
+      .cosmetic-products,
+      .kids-products,
+      .pregnant-products {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        li {
+          width: 220px;
+          height: 320px;
+          background-color: #00994a;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          border-radius: 10px;
+          cursor: pointer;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          transition: all 0.5s ease-in-out;
+          &:hover {
+            transform: scale(1.02);
+          }
+          .drug-image {
+            width: 220px;
+            height: 200px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              border-top-left-radius: 10px;
+              border-top-right-radius: 10px;
+            }
+          }
+          .drugs-text {
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 10px;
+            color: white;
+            height: 100px;
+          }
+        }
+      }
+    }
+  }
+  // ---------carousel-container---------
+  .carousels-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .carousels-element {
+      width: 80%;
+      height: 500px;
+      display: flex;
+      @include responsive1024 {
+        flex-direction: column;
+        height: 1000px;
+        gap: 270px;
+      }
+      //   ---------discounted-products--------
+      .carousel-left-side,
+      .carousel-right-side {
+        width: 50%;
+        display: flex;
+        @include responsive1024 {
+          display: block;
+          width: 100%;
+        }
+        h3 {
+          margin-top: 50px;
+          cursor: pointer;
+          text-decoration: underline;
+          height: 25px;
+        }
+        .discounted-products,
+        .most-viewed-products {
+          position: relative;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          list-style: none;
+          padding-top: 140px;
+          .carousel__item {
+            display: flex;
+            align-items: center;
+            position: absolute;
+            width: 350px;
+            height: 150px;
+            opacity: 0;
+            gap: 10px;
+            background-color: #00994a;
+            border-radius: 10px;
+            padding: 10px;
+            will-change: transform, opacity;
+            animation: carousel-animate-vertical var(--animation-timing) linear
+              infinite;
+            @include responsive768 {
+              width: 300px;
+            }
+            // ------image--------
+            .carousel__image {
+              width: 40%;
+              border-radius: 10px;
+              img {
+                width: 100%;
+                height: 100px;
+                object-fit: cover;
+                border-radius: 10px;
+              }
+            }
+            // ------text--------
+            .carousel__text {
+              width: 60%;
+              height: 200px;
+              list-style: none;
+              display: flex;
+              flex-direction: column;
+              align-items: start;
+              gap: 30px;
+              li {
+                del {
+                  color: red;
+                }
+                h3 {
+                  color: white;
+                  text-decoration: none;
+                }
+                p {
+                  color: white;
+                }
+              }
+            }
+          }
+          .carousel__item:nth-child(1) {
+            animation-delay: calc(var(--animation-delay-fraction) * 0);
+          }
+          .carousel__item:nth-child(2) {
+            animation-delay: calc(var(--animation-delay-fraction) * 1);
+          }
+          .carousel__item:nth-child(3) {
+            animation-delay: calc(var(--animation-delay-fraction) * 2);
+          }
+          .carousel__item:nth-child(4) {
+            animation-delay: calc(var(--animation-delay-fraction) * 3);
+          }
+          .carousel__item:nth-child(5) {
+            animation-delay: calc(var(--animation-delay-fraction) * 4);
+          }
+          .carousel__item:nth-child(6) {
+            animation-delay: calc(var(--animation-delay-fraction) * 5);
+          }
+          .carousel__item:nth-child(7) {
+            animation-delay: calc(var(--animation-delay-fraction) * 6);
+          }
+          .carousel__item:nth-child(8) {
+            animation-delay: calc(var(--animation-delay-fraction) * 7);
+          }
+          .carousel__item:nth-child(9) {
+            animation-delay: calc(var(--animation-delay-fraction) * 8);
+          }
+          .carousel__item:nth-child(10) {
+            animation-delay: calc(var(--animation-delay-fraction) * 9);
+          }
+          @keyframes carousel-animate-vertical {
+            0% {
+              transform: translateY(100%) scale(0.5);
+              opacity: 0;
+              visibility: hidden;
+            }
+            3%,
+            11.11% {
+              transform: translateY(100%) scale(0.7);
+              opacity: 0.4;
+              visibility: visible;
+            }
+            14.11%,
+            22.22% {
+              transform: translateY(0) scale(1);
+              opacity: 1;
+              visibility: visible;
+            }
+            25.22%,
+            33.33% {
+              transform: translateY(-100%) scale(0.7);
+              opacity: 0.4;
+              visibility: visible;
+            }
+            36.33% {
+              transform: translateY(-100%) scale(0.5);
+              opacity: 0;
+              visibility: visible;
+            }
+            100% {
+              transform: translateY(-100%) scale(0.5);
+              opacity: 0;
+              visibility: hidden;
+            }
+          }
+        }
+      }
+    }
+  }
+  // ---------all-drugs---------
+  .all-drugs-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    .all-drugs-element {
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 30px;
+      h3 {
+        cursor: pointer;
+        text-decoration: underline;
+        height: 25px;
+      }
+      .all-drugs {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        li {
+          width: 220px;
+          height: 320px;
+          background-color: #00994a;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          border-radius: 10px;
+          cursor: pointer;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          transition: all 0.5s ease-in-out;
+          &:hover {
+            transform: scale(1.02);
+          }
+          .drug-image {
+            width: 220px;
+            height: 200px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              border-top-left-radius: 10px;
+              border-top-right-radius: 10px;
+            }
+          }
+          .drugs-text {
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 10px;
+            color: white;
+            height: 100px;
+          }
+        }
+      }
+    }
+    // --------pagination-buttons-------
+    .pagination-controls {
+      display: flex;
+      gap: 5px;
+      .page-number {
+        width: 25px;
+        height: 25px;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        font-size: 14px;
+        font-family: "Poppins";
+        cursor: pointer;
+      }
+    }
+    // ------------slider----------
+    .slider {
+      width: 80%;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      h3 {
+        cursor: pointer;
+        text-decoration: underline;
+        height: 25px;
+      }
+      .slider-container {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+        height: 210px;
+        overflow-x: scroll;
+        &::-webkit-scrollbar {
+          display: none;
+        }
+        img {
+          width: 300px;
+          height: 200px;
+          transition: all 0.5s ease;
+          cursor: pointer;
+          border-radius: 10px;
+          &:hover {
+            transform: scale(1.02);
+          }
+        }
+      }
+    }
+  }
+  // ---------------doctors-------------
+  .doctors-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+    .doctors-element {
+      width: 80%;
+      padding-top: 30px;
+      display: flex;
+      @include responsive800 {
+        flex-direction: column;
+        gap: 20px;
+      }
+      // --------left-side--------
+      .left-side-doctors {
+        width: 20%;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        @include responsive800 {
+          width: 100%;
+          align-items: center;
+        }
+        h3 {
+          text-decoration: underline;
+          cursor: pointer;
+          margin-bottom: 5px;
+        }
+        li {
+          p {
+            font-size: 16px;
+            font-style: italic;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            &:hover {
+              transform: scale(1.01);
+            }
+          }
+        }
+      }
+      // --------right-side--------
+      .right-side-doctors {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        width: 80%;
+        @include responsive800 {
+          width: 100%;
+        }
+        li {
+          width: 220px;
+          height: 320px;
+          background-color: #00994a;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          border-radius: 10px;
+          cursor: pointer;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          transition: all 0.5s ease-in-out;
+          &:hover {
+            transform: scale(1.02);
+          }
+          .drug-image {
+            width: 220px;
+            height: 200px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              border-top-left-radius: 10px;
+              border-top-right-radius: 10px;
+            }
+          }
+          .drugs-text {
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 10px;
+            color: white;
+            height: 100px;
+          }
+        }
+      }
+    }
+  }
+}
+// -----------footer----------
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #007378;
+  .footer-element {
+    width: 80%;
+    padding: 60px 0 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    @include responsive768 {
+      justify-content: unset;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    // ----left-side------
+    .left-side-in-footer {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+      @include responsive768 {
+        width: 100%;
+        align-items: center;
+      }
+      .footer-logo-image {
+        width: 150px;
+        img {
+          width: 100%;
+        }
+      }
+      .footer-text {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .contact-in-footer {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          @include responsive768 {
+            justify-content: center;
+          }
+        }
+      }
+    }
+    // ----right-side------
+    .right-side-in-footer {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+      width: 50%;
+      @include responsive768 {
+        width: 100%;
+        align-items: center;
+      }
+      h3 {
+        height: 25px;
+        color: white;
+        text-decoration: underline;
+      }
+      .address-element {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        @include responsive768 {
+          flex-direction: column;
+        }
+        li {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          a {
+            text-decoration: none;
+            color: white;
+            transition: all 0.5s ease-in-out;
+            &:hover {
+              transform: scale(1.03);
+            }
+          }
+        }
+      }
+    }
+  }
+}
