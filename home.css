@@ -17,8 +17,148 @@
   --zero-width: 0%;
 }
 
+.menuBar-module {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  background-color: #007378;
+  position: absolute;
+  z-index: 10000;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menuBar-module .menu-element {
+  width: 80%;
+  height: 90vh;
+}
+.menuBar-module .menu-element .x-icon {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+}
+.menuBar-module .menu-element .x-icon i {
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+.menuBar-module .menu-element .menu-part {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.menuBar-module .menu-element .menu-part .mobile-image {
+  width: 100px;
+}
+.menuBar-module .menu-element .menu-part .mobile-image img {
+  width: 100%;
+}
+.menuBar-module .menu-element .menu-part h3 {
+  color: white;
+  font-style: italic;
+}
+.menuBar-module .menu-element .menu-part .contact-info-in-menuBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.menuBar-module .menu-element .menu-part .contact-info-in-menuBar a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.overlay-module {
+  width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.373);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+}
+.overlay-module .overlay-element {
+  width: 600px;
+  height: 370px;
+  background-color: #00876b;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.overlay-module .overlay-element .module-left-side {
+  width: 40%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
+}
+.overlay-module .overlay-element .module-left-side div {
+  width: 100%;
+}
+.overlay-module .overlay-element .module-left-side div img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.overlay-module .overlay-element .module-left-side h3 {
+  color: white;
+}
+.overlay-module .overlay-element .module-left-side .price {
+  font-size: inherit;
+  font-size: 16px;
+  color: white;
+}
+.overlay-module .overlay-element .module-left-side button {
+  width: 100%;
+  background-color: white;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.5s ease-in-out;
+}
+.overlay-module .overlay-element .module-left-side button:hover {
+  transform: scale(1.02);
+}
+.overlay-module .overlay-element .module-right-side {
+  width: 60%;
+  height: 350px;
+  overflow-y: scroll;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.overlay-module .overlay-element .module-right-side li h3 {
+  color: white;
+  font-size: inherit;
+}
+.overlay-module .overlay-element .module-right-side li p {
+  font-size: inherit;
+  font-size: 16px;
+  color: white;
+}
+
 header {
   width: 100%;
+  position: relative;
 }
 header .up-side-in-header {
   width: 100%;
@@ -1115,7 +1255,7 @@ main .all-drugs-container .slider .slider-container img:hover {
   transform: scale(1.02);
 }
 main .doctors-container {
-  display: flex;
+  display: none;
   justify-content: center;
   margin-top: 110px;
 }
@@ -1207,6 +1347,77 @@ main .doctors-container .doctors-element .right-side-doctors li .drugs-text {
   gap: 10px;
   color: white;
   height: 100px;
+}
+main .healty-notes-container {
+  display: none;
+  justify-content: center;
+  margin-top: 110px;
+}
+main .healty-notes-container .healty-notes-element {
+  width: 80%;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .healty-notes-container .healty-notes-element h3 {
+  text-decoration: underline;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+main .healty-notes-container .healty-notes-element .healty-notes {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  width: 100%;
+}
+@media screen and (max-width: 800px) {
+  main .healty-notes-container .healty-notes-element .healty-notes {
+    width: 100%;
+  }
+}
+main .healty-notes-container .healty-notes-element .healty-notes li {
+  width: 220px;
+  height: 320px;
+  background-color: #00994a;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all 0.5s ease-in-out;
+}
+main .healty-notes-container .healty-notes-element .healty-notes li:hover {
+  transform: scale(1.02);
+}
+main .healty-notes-container .healty-notes-element .healty-notes li .note-image {
+  width: 220px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+main .healty-notes-container .healty-notes-element .healty-notes li .note-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+main .healty-notes-container .healty-notes-element .healty-notes li .note-text {
+  width: 90%;
+  padding: 10px;
+  gap: 10px;
+  color: white;
+  height: 100px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 footer {

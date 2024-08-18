@@ -129,72 +129,148 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "./images/allDrugs/drug1.png",
       drugName: "Ornaenzim N30",
       drugPrice: "21.80 AZN",
+      title1: "Tərkibi:",
+      title2: "İstehsalçı Ölkə:",
+      title3: "Tasiredicinin miqdari:",
+      description1:
+        "Pankreatin Lipaza Amilaza Proteaza Pepsin Bromelain Papain §üyüd ekstrakti",
+      description2: "BRITANIYA",
+      description3:
+        "Pankreatin 150 mq, Lipaza 6750 BV,Amilaza 6300 BV,Proteaza 450 BV,Pepsin 10 mq,Bromelain 100 mg,Papain 100 mq,Süyüd ekstrakti 50 mq",
     },
     {
       id: 2,
       image: "./images/mostViewedProducts/carousel9.avif",
       drugName: "Krem Sebamed uşaqlar üçün  50 ml",
       drugPrice: "9.30 AZN",
+      title1: "Vahidi:",
+      title2: "İstehsalçı Ölkə:",
+      title3: "Aid Oldugu kateqoriyalar:",
+      description1: "TUB",
+      description2: "GERMANY",
+      description3:
+        "Usaq darisina qulluq vasitalari,Badane quiluq vasitaleri,Namlendirici vasitaler",
     },
     {
       id: 3,
       image: "./images/mostViewedProducts/carousel8.webp",
       drugName: "Nervio B12 3 ml N6",
       drugPrice: "52.38 AZN",
+      title1: "Tərkibi:",
+      title2: "Vahidi:",
+      title3: "Tasiredicinin miqdari:",
+      description1: "Betametazon Diklifenak natrium Hidroksokobalamin",
+      description2: "AMP",
+      description3:
+        "Betametazon 2 mq, Diklifenak natrium 75 mq, Hidroksokobalamin 10 mq",
     },
     {
       id: 4,
       image: "./images/mostViewedProducts/carousel7.jpeg",
       drugName: "Lekart 1 q 5 ml N5",
       drugPrice: "10.01 AZN",
+      title1: "Torkibi:",
+      title2: "Farmakoloji Tasiri:",
+      title3: "istehsalci Ölke:",
+      description1: "Betametazon Diklifenak natrium Hidroksokobalamin",
+      description2: "Agrikesici, iltihab aleyhine",
+      description3: "ARGENTINA",
     },
     {
       id: 5,
       image: "./images/mostViewedProducts/carousel6.jpg",
       drugName: "Salbutamol 200 doza",
       drugPrice: "5.40 AZN",
+      title1: "Torkibi:",
+      title2: "Farmakoloji Tasiri:",
+      title3: "istehsalci Ölke:",
+      description1: "Salbutamol",
+      description2: "Bronxodilatasiyaedici",
+      description3: "iSPANIYA",
     },
     {
       id: 6,
       image: "./images/mostViewedProducts/carousel1.jpg",
       drugName: "Balıq yağı N90",
       drugPrice: "37.80 AZN",
+      title1: "",
+      title2: "",
+      title3: "",
+      description1: "",
+      description2: "",
+      description3: "",
     },
     {
       id: 7,
       image: "./images/mostViewedProducts/carousel2.png",
       drugName: "Kesol 50 mkq 200 doz",
       drugPrice: "14.98 AZN",
+      title1: "",
+      title2: "",
+      title3: "",
+      description1: "",
+      description2: "",
+      description3: "",
     },
     {
       id: 8,
       image: "./images/mostViewedProducts/carousel3.webp",
       drugName: "Agemo N50",
       drugPrice: "29.60 AZN",
+      title1: "",
+      title2: "",
+      title3: "",
+      description1: "",
+      description2: "",
+      description3: "",
     },
     {
       id: 9,
       image: "./images/mostViewedProducts/carousel4.jpg",
       drugName: "Neyrovit 2 ml N10",
       drugPrice: "13.94 AZN",
+      title1: "",
+      title2: "",
+      title3: "",
+      description1: "",
+      description2: "",
+      description3: "",
     },
     {
       id: 10,
       image: "./images/mostViewedProducts/carousel5.jpg",
       drugName: "Vamelan-wm N30",
       drugPrice: "7.91 AZN",
+      title1: "",
+      title2: "",
+      title3: "",
+      description1: "",
+      description2: "",
+      description3: "",
     },
     {
       id: 11,
       image: "./images/allDrugs/drug2.jpg",
       drugName: "Pulsoksimetr 'Beurer' PO 30",
       drugPrice: "94.90 AZN",
+      title1: "",
+      title2: "",
+      title3: "",
+      description1: "",
+      description2: "",
+      description3: "",
     },
     {
       id: 12,
       image: "./images/allDrugs/drug3.webp",
       drugName: "Qalınlaşdırıcı şampun 400 ml",
       drugPrice: "42.32 AZN",
+      title1: "",
+      title2: "",
+      title3: "",
+      description1: "",
+      description2: "",
+      description3: "",
     },
     {
       id: 13,
@@ -207,42 +283,84 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "./images/allDrugs/drug5.avif",
       drugName: "Livolen Plus N30",
       drugPrice: "23.20 AZN",
+      title1: "",
+      title2: "",
+      title3: "",
+      description1: "",
+      description2: "",
+      description3: "",
     },
     {
       id: 15,
       image: "./images/allDrugs/drug6.jpg",
       drugName: "Nistatin 0.5 mq N10",
       drugPrice: "2.59 AZN",
+      title1: "",
+      title2: "",
+      title3: "",
+      description1: "",
+      description2: "",
+      description3: "",
     },
     {
       id: 16,
       image: "./images/allDrugs/drug7.jpg",
       drugName: "Gastrosit N7",
       drugPrice: "23.51 AZN",
+      title1: "",
+      title2: "",
+      title3: "",
+      description1: "",
+      description2: "",
+      description3: "",
     },
     {
       id: 17,
       image: "./images/allDrugs/drug8.avif",
       drugName: "Faktazidim 500 mq N1",
       drugPrice: "5.90 AZN",
+      title1: "",
+      title2: "",
+      title3: "",
+      description1: "",
+      description2: "",
+      description3: "",
     },
     {
       id: 18,
       image: "./images/allDrugs/drug9.jpg",
       drugName: "Eritromisin 100 mq N20",
       drugPrice: "2.10 AZN",
+      title1: "",
+      title2: "",
+      title3: "",
+      description1: "",
+      description2: "",
+      description3: "",
     },
     {
       id: 19,
       image: "./images/allDrugs/drug10.webp",
       drugName: "Ardeysedon N20",
       drugPrice: "14.35 AZN",
+      title1: "",
+      title2: "",
+      title3: "",
+      description1: "",
+      description2: "",
+      description3: "",
     },
     {
       id: 20,
       image: "./images/allDrugs/drug11.jpg",
       drugName: "Anestezol N10",
       drugPrice: "1.70 AZN",
+      title1: "",
+      title2: "",
+      title3: "",
+      description1: "",
+      description2: "",
+      description3: "",
     },
   ];
   // ---------------brands------------
@@ -414,27 +532,45 @@ document.addEventListener("DOMContentLoaded", () => {
       alt: "cosmetic 5",
     },
   ];
-
+  // ----------------kids--------------
   const kidsProducts = [
     {
       id: 1,
       image: "./images/kid/kid1.jpg",
-      opticName: "Bepanten",
-      opticPrice: "14.80 AZN",
+      drugName: "Bepanten",
+      drugPrice: "14.80 AZN",
+      title1: "Torkibi:",
+      title2: "Farmakoloji Tasiri:",
+      title3: "istehsalci Ölke:",
+      description1: "Deksapantenol",
+      description2: "Regenerasiyaedici",
+      description3: "GER",
       alt: "kid 1",
     },
     {
       id: 2,
       image: "./images/kid/kid2.webp",
-      opticName: "Dolphin uşaq bezi",
-      opticPrice: "7.50 AZN",
+      drugName: "Dolphin uşaq bezi",
+      drugPrice: "7.50 AZN",
+      title1: "Torkibi:",
+      title2: "Farmakoloji Tasiri:",
+      title3: "istehsalci Ölke:",
+      description1: "Deksapantenol",
+      description2: "Regenerasiyaedici",
+      description3: "GER",
       alt: "kid 2",
     },
     {
       id: 3,
       image: "./images/kid/kid3.webp",
-      opticName: "Multivitaminli bərpaedici balzam",
-      opticPrice: "21.52 AZN",
+      drugName: "Multivitaminli bərpaedici balzam",
+      drugPrice: "21.52 AZN",
+      title1: "Torkibi:",
+      title2: "Farmakoloji Tasiri:",
+      title3: "istehsalci Ölke:",
+      description1: "Deksapantenol",
+      description2: "Regenerasiyaedici",
+      description3: "GER",
       alt: "kid 3",
     },
     {
@@ -442,6 +578,11 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "./images/kid/kid4.webp",
       opticName: "Körpələr üçün yumşaldıcı krem",
       opticPrice: "31.92 AZN",
+      title1: "Torkibi:",
+      title2: "Farmakoloji Tasiri:",
+      title3: "istehsalci Ölke:",
+      description1: "Deksapantenol",
+      description2: "Regenerasiyaedici",
       alt: "kid 4",
     },
     {
@@ -544,18 +685,19 @@ document.addEventListener("DOMContentLoaded", () => {
   const pregnantProduct = document.querySelector(".pregnant-products");
   if (pregnantProduct) {
     pregnantProduct.innerHTML = "";
-    pregnantProducts.forEach((optic) => {
-      pregnantProduct.innerHTML += `
-    <li>
+    pregnantProducts.forEach((pregnant) => {
+      const pregnantİtem = document.createElement("li");
+      pregnantİtem.innerHTML = `
       <div class="drug-image">
-        <img src="${optic.image}" alt="carousel ${optic.alt}" />
+        <img src="${pregnant.image}" alt="carousel ${pregnant.alt}" />
       </div>
       <div class="drugs-text">
-        <h4>${optic.opticName}</h4>
-        <p>${optic.opticPrice}</p>
+        <h4>${pregnant.opticName}</h4>
+        <p>${pregnant.opticPrice}</p>
       </div>
-    </li>
     `;
+      pregnantİtem.addEventListener("click", () => showModule(pregnant));
+      pregnantProduct.appendChild(pregnantİtem);
     });
   } else {
     console.error("Element with class 'all-drugs' not found");
@@ -566,8 +708,8 @@ document.addEventListener("DOMContentLoaded", () => {
   if (opticsProduct) {
     opticsProduct.innerHTML = "";
     opticsProducts.forEach((optic) => {
-      opticsProduct.innerHTML += `
-    <li>
+      const opticsİtem = document.createElement("li");
+      opticsİtem.innerHTML += `
       <div class="drug-image">
         <img src="${optic.image}" alt="carousel ${optic.alt}" />
       </div>
@@ -575,8 +717,9 @@ document.addEventListener("DOMContentLoaded", () => {
         <h4>${optic.opticName}</h4>
         <p>${optic.opticPrice}</p>
       </div>
-    </li>
     `;
+      opticsİtem.addEventListener("click", () => showModule(optic));
+      opticsProduct.appendChild(opticsİtem);
     });
   } else {
     console.error("Element with class 'all-drugs' not found");
@@ -587,8 +730,8 @@ document.addEventListener("DOMContentLoaded", () => {
   if (cosmeticProduct) {
     cosmeticProduct.innerHTML = "";
     cosmeticProducts.forEach((cosmetic) => {
-      cosmeticProduct.innerHTML += `
-    <li>
+      const cosmeticsİtem = document.createElement("li");
+      cosmeticsİtem.innerHTML = `
       <div class="drug-image">
         <img src="${cosmetic.image}" alt="carousel ${cosmetic.alt}" />
       </div>
@@ -596,8 +739,9 @@ document.addEventListener("DOMContentLoaded", () => {
         <h4>${cosmetic.opticName}</h4>
         <p>${cosmetic.opticPrice}</p>
       </div>
-    </li>
     `;
+      cosmeticsİtem.addEventListener("click", () => showModule(cosmetic));
+      cosmeticProduct.appendChild(cosmeticsİtem);
     });
   } else {
     console.error("Element with class 'all-drugs' not found");
@@ -605,24 +749,27 @@ document.addEventListener("DOMContentLoaded", () => {
   // ---------------kids------------
   const kidContainer = document.querySelector(".kids-container");
   const kidProduct = document.querySelector(".kids-products");
+
   if (kidProduct) {
     kidProduct.innerHTML = "";
-    kidsProducts.forEach((cosmetic) => {
-      kidProduct.innerHTML += `
-    <li>
+    kidsProducts.forEach((kids) => {
+      const kidsİtem = document.createElement("li");
+      kidsİtem.innerHTML = `
       <div class="drug-image">
-        <img src="${cosmetic.image}" alt="carousel ${cosmetic.alt}" />
+        <img src="${kids.image}" alt="carousel ${kids.alt}" />
       </div>
       <div class="drugs-text">
-        <h4>${cosmetic.opticName}</h4>
-        <p>${cosmetic.opticPrice}</p>
+        <h4>${kids.drugName}</h4>
+        <p>${kids.drugPrice}</p>
       </div>
-    </li>
     `;
+      kidsİtem.addEventListener("click", () => showModule(kids));
+      kidProduct.appendChild(kidsİtem);
     });
   } else {
-    console.error("Element with class 'all-drugs' not found");
+    console.error("Element with class 'kids-products' not found");
   }
+
   // -------------allDrugs------------
   const allDrugsProducts = document.querySelector(".all-drugs");
   const paginationControls = document.querySelector(".pagination-controls");
@@ -637,17 +784,18 @@ document.addEventListener("DOMContentLoaded", () => {
     if (allDrugsProducts) {
       allDrugsProducts.innerHTML = "";
       itemsToShow.forEach((drugs) => {
-        allDrugsProducts.innerHTML += `
-      <li>
-        <div class="drug-image">
-          <img src="${drugs.image}" alt="carousel ${drugs.id}" />
-        </div>
-        <div class="drugs-text">
-          <h4>${drugs.drugName}</h4>
-          <p>${drugs.drugPrice}</p>
-        </div>
-      </li>
-      `;
+        const drugItem = document.createElement("li");
+        drugItem.innerHTML = `
+          <div class="drug-image">
+            <img src="${drugs.image}" alt="carousel ${drugs.id}" />
+          </div>
+          <div class="drugs-text">
+            <h4>${drugs.drugName}</h4>
+            <p>${drugs.drugPrice}</p>
+          </div>
+        `;
+        drugItem.addEventListener("click", () => showModule(drugs));
+        allDrugsProducts.appendChild(drugItem);
       });
     } else {
       console.error("Element with class 'all-drugs' not found");
@@ -676,6 +824,51 @@ document.addEventListener("DOMContentLoaded", () => {
 
   renderCards(1);
   renderPagination(1);
+  // ------module-drug--------
+  function showModule(drug) {
+    const module = document.querySelector(".overlay-module");
+    if (module) {
+      window.scrollTo({
+        top: 0,
+      });
+      document.body.style.overflowY = "hidden";
+      module.innerHTML = `
+        <div class="overlay-element">
+          <div class="module-left-side">
+            <div>
+              <img src="${drug.image}" alt="${drug.drugName}" />
+            </div>
+            <h3>${drug.drugName}</h3>
+            <p class="price">${drug.drugPrice}</p>
+            <button class="close-module">Bağla</button>
+          </div>
+          <ul class="module-right-side">
+            <li>
+              <h3>${drug.title1}</h3>
+              <p>${drug.description1}</p>
+            </li>
+            <li>
+              <h3>${drug.title2}</h3>
+              <p>${drug.description2}</p>
+            </li>
+            <li>
+              <h3>${drug.title3}</h3>
+              <p>${drug.description3}</p>
+            </li>
+          </ul>
+        </div>  
+      `;
+      module.style.display = "flex";
+
+      const closeButton = module.querySelector(".close-module");
+      closeButton.addEventListener("click", () => {
+        module.style.display = "none";
+        document.body.style.overflowY = "auto";
+      });
+    } else {
+      console.error("Element with class 'overlay-module' not found");
+    }
+  }
   //   ---------------------------slider----------------------------------
   const sliderContainer = document.querySelector(".slider-container");
   brands.map((item) => {
@@ -731,11 +924,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const kid = document.querySelector(".kid");
   const pregnant = document.querySelector(".pregnant");
   const doctorsContainer = document.querySelector(".doctors-container");
+  const healtyNotesContainer = document.querySelector(
+    ".healty-notes-container"
+  );
   drugs.style.backgroundColor = "#00876b";
-
-  if ((carouselContainer.style.display = "flex")) {
-    doctorsContainer.style.display = "none";
-  }
 
   buyDrug.addEventListener("click", () => {
     location.reload();
@@ -756,6 +948,7 @@ document.addEventListener("DOMContentLoaded", () => {
       cosmetic.style.backgroundColor = "transparent";
       kid.style.backgroundColor = "transparent";
       pregnant.style.backgroundColor = "transparent";
+      window.scrollTo({ top: 0, behavior: "smooth" });
     }
   });
 
@@ -778,6 +971,7 @@ document.addEventListener("DOMContentLoaded", () => {
       kid.style.backgroundColor = "transparent";
       pregnant.style.backgroundColor = "transparent";
       doctorsContainer.style.display = "flex";
+      window.scrollTo({ top: 0, behavior: "smooth" });
     }
   });
 
@@ -800,6 +994,8 @@ document.addEventListener("DOMContentLoaded", () => {
       kid.style.backgroundColor = "transparent";
       pregnant.style.backgroundColor = "transparent";
       doctorsContainer.style.display = "none";
+      healtyNotesContainer.style.display = "flex";
+      window.scrollTo({ top: 0, behavior: "smooth" });
     }
   });
 
@@ -1032,6 +1228,12 @@ document.addEventListener("DOMContentLoaded", () => {
     doctorKind.appendChild(li);
 
     p.addEventListener("click", () => {
+      const allDoctorKinds = document.querySelectorAll(".doctor-kind");
+      allDoctorKinds.forEach((kind) => {
+        kind.style.textDecoration = "none";
+      });
+      p.style.textDecoration = "underline";
+
       filterDoctorsByKind(item);
     });
   });
@@ -1041,8 +1243,8 @@ document.addEventListener("DOMContentLoaded", () => {
     if (allDoctors) {
       allDoctors.innerHTML = "";
       filteredDoctors.forEach((optic) => {
-        allDoctors.innerHTML += `
-          <li>
+        const doctorItem = document.createElement("li");
+        doctorItem.innerHTML = `
             <div class="drug-image">
               <img src="${optic.image}" alt="${optic.alt}" />
             </div>
@@ -1050,8 +1252,9 @@ document.addEventListener("DOMContentLoaded", () => {
               <h4>${optic.kind}</h4>
               <p>${optic.doctorName}</p>
             </div>
-          </li>
         `;
+        doctorItem.addEventListener("click", () => showModule(drugs));
+        allDoctors.appendChild(doctorItem);
       });
     } else {
       console.error("Element with class 'right-side-doctors' not found");
@@ -1064,4 +1267,227 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   displayDoctors(doctors);
+
+  // -----------healty-notes----------
+
+  const notes = [
+    {
+      id: 1,
+      image: "./images/healtyNotes/note1.jpg",
+      alt: "note 1",
+      kind: "Ürək çatışmazlığı",
+      title1: "Ürək çatışmazlığına səbəb nədir?",
+      title2: "Kimdə ürək çatışmazlığı daha çox inkişaf edir?",
+      title3: "Ürək çatışmazlığının əlamətləri nələrdir?",
+      title4: "Ürək çatışmazlığının müalicəsi hansılardır?",
+      description1:
+        "Ürək çatışmazlığı bir xəstəlik və ya zədə ürək əzələsinə zərər verdikdən sonra qəfil başlaya bilər. Lakin əksər hallarda ürək çatışmazlığı uzunmüddətli tibbi şəraitdən yavaş-yavaş inkişaf edir.",
+      description2:
+        "Ürək çatışmazlığı hər yaşda baş verə bilər. Həm kişilərdə, həm də qadınlarda olur, lakin kişilər tez-tez qadınlardan daha gənc yaşda inkişaf etdirirlər. Ürək çatışmazlığının inkişaf ehtimalı aşağıdakı hallarda artır: 65 və ya daha çox yaşınız var. Yaşlanma ürək əzələlərini zəiflədə və sərtləşdirə bilər, Ailənizin sağlamlıq tarixçəsi ürək çatışmazlığı olan və ya keçmiş qohumlar daxildir, Siz genlərinizdə dəyişikliklər ürək toxumanıza təsir edən, Ürəyinizə zərər verə biləcək vərdişləriniz varO cümlədən, Smoking, Yüksək tərkibli qidalar yemək piy, xolesterolvə natrium (duz), Qeyri-aktiv həyat tərzinə sahib olmaq, Alkoqol istifadəsi pozğunluğu (AUD), Qanunsuz narkotik istifadəsi, Ürəyinizə təsir edə biləcək digər tibbi şərtləriniz varO cümlədən: Yüksək qan təzyiqi də daxil olmaqla hər hansı ürək və ya qan damarı vəziyyəti, Ciddi ağciyər xəstəlikləri, İnfeksiya, məsələn HİV / AİDS or Covid-19, Obezite, Diabet, Sleep apnea, Xroniki böyrək xəstəliyi, Anemiya, Dəmir yükü xəstəliyi,Ürəyinizə zərər verə biləcək xərçəng müalicələri kimi radiasiya və kemoterapi, Siz afroamerikalısınız. Afrikalı amerikalıların ürək çatışmazlığı inkişaf etdirmə ehtimalı daha yüksəkdir və digər irqlərdən olan insanlara nisbətən daha gənc yaşlarda daha ciddi hallar olur. Stiqma, ayrı-seçkilik, gəlir, təhsil və coğrafi bölgə kimi faktorlar da onların ürək çatışmazlığı riskinə təsir edə bilər.",
+      description3:
+        "Ürək çatışmazlığının simptomları ürəyinizin hansı tərəfinin təsirləndiyindən və vəziyyətinizin nə qədər ciddi olduğundan asılıdır. Əksər simptomlar orqanlarınıza qan axınının azalması və bədəninizdə maye yığılması ilə əlaqədardır. Maye yığılması, ürəyinizdən qan axınının çox yavaş olması səbəbindən baş verir. Nəticədə qan ürəyinizə qaytaran damarlarda toplanır. Maye qan damarlarından sızaraq bədəninizin toxumalarında toplana bilər və bu da şişməyə səbəb ola bilər (ödəmə) və digər problemlər.",
+      description4:
+        "Müalicəniz ürək çatışmazlığının növündən və nə qədər ciddi olduğundan asılı olacaq. Ürək çatışmazlığının müalicəsi yoxdur. Ancaq müalicə daha az simptomlarla daha uzun yaşamağınıza kömək edə bilər. Müalicə ilə belə, ürək çatışmazlığı adətən zamanla daha da pisləşir, buna görə də ömrünüzün qalan hissəsi üçün müalicəyə ehtiyacınız olacaq. Əksər müalicə planlarına aşağıdakılar daxildir: Dərman qəbul etmək, Maye yığılmasını idarə etmək üçün daha az natrium yemək və daha az maye içmək, kimi digər dəyişikliklərin edilməsi siqareti buraxma, idarəetmə vurğuvə sağlamlıq xidmətinizin tövsiyə etdiyi qədər fiziki fəaliyyət əldə edin, Ürək çatışmazlığını pisləşdirə biləcək hər hansı bir vəziyyətin müalicəsi, Lazım ola bilər ürək əməliyyatı əgər: Anadangəlmə ürək qüsurunuz və ya ürəyinizdə düzəldilə bilən zədəniz var, Ürəyinizin sol tərəfi zəifləyir və sinənizə bir cihaz qoymaq kömək edə bilər. Cihazlara daxildir, An implantasiya edilə bilən kardioverter defibrilator, Biventrikulyar kardiostimulyator (ürək resinxronizasiya terapiyası), Mexanik ürək nasosu (ventrikulyar köməkçi cihaz (VAD) və ya tam süni ürək), Ürək həkiminiz a ürək nəqli çünki ürək çatışmazlığınız həyat üçün təhlükəlidir və başqa heç nə kömək etmir, Müalicənizin bir hissəsi olaraq, simptomlarınıza çox diqqət yetirməlisiniz, çünki ürək çatışmazlığı birdən pisləşə bilər. Provayderiniz a ürək reabilitasiya proqramı vəziyyətinizi idarə etməyi öyrənməyə kömək etmək.",
+    },
+    {
+      id: 2,
+      image: "./images/healtyNotes/note2.jpg",
+      alt: "note 2",
+      kind: "Sümük xərçəngi",
+      title1: "Xülasə",
+      title2: "Üç növ sümük xərçəngi var:",
+      title3: "Simptomlar",
+      title4: "",
+      description1:
+        "Sümükdə başlayan xərçəng nadirdir. Bədənin başqa yerindən sümüyə yayılan xərçəng daha çox rast gəlinir.",
+      description2:
+        "Osteosarkoma – ən çox 10-19 yaş arasında baş verir. Daha çox diz və qolun yuxarı hissəsində rast gəlinir, Xondrosarkoma - adətən 40 yaşından sonra qığırdaqda başlayır, Ewing sarkoması – ən çox 19 yaşdan kiçik uşaqlarda və yeniyetmələrdə rast gəlinir. Oğlanlarda qızlara nisbətən daha çox rast gəlinir.",
+      description3:
+        "Sümük xərçənginin ən çox görülən simptomu ağrıdır. Digər simptomlar xərçəngin yerindən və ölçüsündən asılı olaraq dəyişir. Cərrahiyyə çox vaxt sümük xərçənginin əsas müalicəsidir. Digər müalicələrə amputasiya, kemoterapi və radiasiya terapiyası daxil ola bilər. Sümük xərçəngi müalicədən sonra geri dönə biləcəyi üçün müntəzəm təqib ziyarətləri vacibdir.",
+      description4: "",
+    },
+    {
+      id: 3,
+      image: "./images/healtyNotes/note3.jpg",
+      alt: "note 3",
+      kind: "Alzheimer xəstəliyi",
+      title1: "Yaş aralığı",
+      title2: "Proses necə gedir?",
+      title3: "Simptomlar",
+      title4: "Risk",
+      description1:
+        "Alzheimer xəstəliyinin (AH) ən çox görülən formasıdır demans yaşlı insanlar arasında. Demans, insanın gündəlik fəaliyyətlərini yerinə yetirmək qabiliyyətinə ciddi təsir göstərən beyin pozğunluğudur.",
+      description2:
+        "AD yavaş-yavaş başlayır. Bu, ilk növbədə beynin düşüncə, yaddaş və dili idarə edən hissələrini əhatə edir. AD olan insanlar bu yaxınlarda baş verənləri və ya tanıdıqları insanların adlarını xatırlamaqda çətinlik çəkə bilərlər. Əlaqədar problem, yüngül koqnitiv pozğunluq (MCI), eyni yaşdakı insanlar üçün normaldan daha çox yaddaş probleminə səbəb olur. Çoxları, lakin hamısı deyil, MCI olan insanlar AD inkişaf etdirəcəklər.",
+      description3:
+        "AD-də zaman keçdikcə simptomlar daha da pisləşir. İnsanlar ailə üzvlərini tanımaya bilər. Danışmaq, oxumaq və ya yazmaqda çətinlik çəkə bilərlər. Dişlərini fırçalamağı və ya saçlarını daramağı unuda bilərlər. Daha sonra onlar narahat və ya aqressivləşə və ya evdən uzaqlaşa bilərlər. Nəhayət, onlara tam qayğı lazımdır. Bu, məcburi olan ailə üzvləri üçün böyük stress yarada bilər qayğı onlar üçün.",
+      description4:
+        "AD adətən 60 yaşından sonra başlayır. Yaşlandıqca risk artır. Ailə üzvlərindən birində xəstəlik varsa, riskiniz də daha yüksəkdir.",
+    },
+    {
+      id: 4,
+      image: "./images/healtyNotes/note4.jpeg",
+      alt: "note 4",
+      kind: "Beyin anevrizması",
+      title1: "Balonlaşma",
+      title2: "Simptomlar",
+      title3: "Xəstə Təqdimatları",
+      title4: "Burada başlayın",
+      description1:
+        "Bir beyin anevrizma beyində arteriya divarında anormal qabarıqlıq və ya “balonlaşma”dır. Onlar bəzən giləmeyvə anevrizması adlanır, çünki onlar çox vaxt kiçik giləmeyvə ölçüsündə olurlar. Əksər beyin anevrizmaları böyüyənə, qan sızmağa və ya partlamaya başlayana qədər heç bir simptom yaratmır.",
+      description2:
+        "Müalicə anevrizmanın ölçüsündən və yerindən, yoluxmuş olub-olmamasından və partlayıb-sızmasından asılıdır. Əgər beyin anevrizması partlayırsa, simptomlar arasında ani, şiddətli baş ağrısı, ürəkbulanma və qusma, boyun tutulması, huşun itirilməsi və ürəkbulanma əlamətləri ola bilər. zərbə. Bu simptomlardan hər hansı biri təcili tibbi yardım tələb edir.",
+      description3: "Beyində anevrizma Tibb ensiklopediyası",
+      description4: "Beyin anevrizması Mayo Tibbi Təhsil və Tədqiqat Vəqfi",
+    },
+    {
+      id: 5,
+      image: "./images/healtyNotes/note5.jpg",
+      alt: "note 5",
+      kind: "Meningit",
+      title1: "Xülasə",
+      title2: "Erkən müalicə",
+      title3: "Xüsusiyyətləri",
+      title4: "Xəstə Təqdimatları",
+      description1:
+        "Menenjit beyin və onurğa beynini əhatə edən nazik toxumanın iltihabıdır. Menenjitin bir neçə növü var. Ən çox görülən viral meningitdir. Virus bədənə burun və ya ağızdan daxil olduqda və beyinə keçdikdə onu əldə edirsiniz. Bakterial meningit nadirdir, lakin ölümcül ola bilər. Adətən soyuqdəyməyə bənzər infeksiyaya səbəb olan bakteriyalarla başlayır. Səbəb ola bilər zərbə, Eşitmə itkisi, və beyin zədələnməsi. Digər orqanlara da zərər verə bilər. Pnevmokok infeksiyaları və meningokok infeksiyaları bakterial meningitin ən çox yayılmış səbəbləridir.",
+      description2:
+        "Erkən müalicə ölüm də daxil olmaqla ciddi problemlərin qarşısını almağa kömək edə bilər. Menenjitin diaqnozu üçün testlərə qan testləri, görüntüləmə testləri və serebrospinal mayeni yoxlamaq üçün onurğa kranı daxildir. Antibiotiklər bakterial meningiti müalicə edə bilər. Antiviral dərmanlar bəzi viral meningit növlərinə kömək edə bilər. Digər dərmanlar simptomları aradan qaldırmağa kömək edə bilər.",
+      description3:
+        "Bakterial Menenjit Xəstəliklərə Nəzarət və Qarşısının Alınması üzrə Mərkəzləri",
+      description4: "Qram-mənfi meningit Tibb ensiklopediyası",
+    },
+    {
+      id: 6,
+      image: "./images/healtyNotes/note6.jpg",
+      alt: "note 5",
+      kind: "Addison xəstəliyi",
+      title1: "Xülasə",
+      title2: "İmmunitet sistemi",
+      title3: "Laboratoriya testləri",
+      title4: "Xəstə Təqdimatları",
+      description1:
+        "Böyrəküstü vəziləriniz böyrəklərinizin üstündədir. Bu bezlərin xarici təbəqəsi bədəninizin stresə cavab verməsinə və qan təzyiqinizi, su və duz balansınızı tənzimləməsinə kömək edən hormonlar istehsal edir. Adrenal bezlər bu hormonları kifayət qədər istehsal etmədikdə Addison xəstəliyi baş verir.",
+      description2:
+        "İmmunitet sistemindəki problem adətən Addison xəstəliyinə səbəb olur. İmmunitet sistemi səhvən öz toxumalarınıza hücum edərək böyrəküstü vəzilərinizi zədələyir. Digər səbəblərə infeksiyalar və xərçəng daxildir.",
+      description3:
+        "Laboratoriya testləri Addison xəstəliyinin olduğunu təsdiqləyə bilər. Əgər müalicə etməsəniz, ölümcül ola bilər. Ömrünüzün qalan hissəsi üçün hormon həbləri qəbul etməlisiniz. Addison xəstəliyiniz varsa, təcili yardım vəsiqəsi daşımalısınız. Xəstəliyiniz olduğunu söyləməli, dərmanlarınızı sadalamalısınız və təcili vəziyyətdə nə qədər ehtiyacınız olduğunu söyləməlisiniz.",
+      description4: "ACTH qan testi Tibb ensiklopediyası",
+    },
+    {
+      id: 7,
+      image: "./images/healtyNotes/note7.webp",
+      alt: "note 7",
+      kind: "Katarakt",
+      title1: "Xülasə",
+      title2: "İnkişafı",
+      title3: "Genetika",
+      title4: "Müalicələr və Müalicələr",
+      description1:
+        "Katarakta gözündəki linzanın buludlanmasıdır. Görmə qabiliyyətinizə təsir edir. Katarakta yaşlı insanlarda çox yaygındır. 80 yaşına qədər bütün amerikalıların yarıdan çoxu ya kataraktaya malikdir, ya da katarakt əməliyyatı keçirib.",
+      description2:
+        "Katarakt adətən yavaş inkişaf edir. Yeni eynəklər, daha parlaq işıqlandırma, parıltıya qarşı günəş eynəkləri və ya böyüdücü linzalar əvvəlcə kömək edə bilər. Cərrahiyyə də bir seçimdir. Bu, buludlu linzanın çıxarılmasını və süni lens ilə əvəz edilməsini nəzərdə tutur. Günəş eynəyi və ultrabənövşəyi günəş şüalarının qarşısını almaq üçün kənarı olan papaq taxmaq kataraktları gecikdirməyə kömək edə bilər.",
+      description3:
+        "Autosomal dominant optik atrofiya və katarakta: MedlinePlus Genetika Milli Tibb Kitabxanası",
+      description4:
+        "IOL İmplantları: Kataraktadan Sonra Lensin dəyişdirilməsi (Gözdaxili linzalar) American Academy of Ophthalmology",
+    },
+    {
+      id: 8,
+      image: "./images/healtyNotes/note8.png",
+      alt: "note 8",
+      kind: "Böyrək xərçəngi",
+      title1: "Xülasə",
+      title2: "Müalicə üsulu",
+      title3: "Müalicələr və Müalicələr",
+      title4: "Statistika və Tədqiqat",
+      description1:
+        "İki böyrəyiniz var. Bunlar belinizin üstündə onurğa sümüyünün hər iki tərəfində yerləşən yumruq ölçüsündə orqanlardır. İçindəki borular qanınızı süzür və təmizləyir, tullantıları çıxarır və sidik çıxarır. Böyrək xərçəngi böyrəklərinizin içərisindəki kiçik boruların astarında əmələ gəlir.",
+      description2:
+        "Müalicə yaşınızdan, ümumi sağlamlığınızdan və xərçəngin nə qədər inkişaf etdiyindən asılıdır. Buraya cərrahiyyə, kemoterapi və ya radiasiya, bioloji və ya hədəflənmiş müalicələr daxil ola bilər. Bioloji terapiya bədəninizin xərçənglə mübarizə qabiliyyətini artırır. Məqsədli terapiya, normal hüceyrələrə daha az zərər verən xüsusi xərçəng hüceyrələrinə hücum edən dərmanlar və ya digər maddələrdən istifadə edir.",
+      description3:
+        "Böyrək (böyrək hüceyrəsi) xərçəngi üçün təsdiqlənmiş dərmanlar Milli Xərçəng İnstitutunun",
+      description4:
+        "Maye Biopsiyası Beyin Xərçəngini və Erkən Mərhələ Böyrək Xərçəngini Müəyyən edir Milli Xərçəng İnstitutunun",
+    },
+    {
+      id: 9,
+      image: "./images/healtyNotes/note9.jpg",
+      alt: "note 9",
+      kind: "Quş qripi",
+      title1: "Xülasə",
+      title2: "İnsanlara təsiri",
+      title3: "Müalicə üsulu",
+      title4: "Xüsusiyyətləri",
+      description1:
+        "Quşlar da insanlar kimi qripə yoluxur. Quş qripi virusları quşları, o cümlədən toyuqları, digər ev quşlarını və ördək kimi çöl quşlarını yoluxur. Adətən quş qripi virusları yalnız digər quşlara yoluxur. İnsanların quş qripi viruslarına yoluxması nadirdir, lakin bu baş verə bilər. İki növ, H5N1 və H7N9, Asiya, Afrika, Sakit Okean, Yaxın Şərq və Avropanın bəzi bölgələrində baş verən epidemiyalar zamanı bəzi insanlara yoluxmuşdur. ABŞ-da insanlara təsir edən digər quş qripi növlərinin nadir halları da olmuşdur.",
+      description2:
+        "Quş qripinə yoluxmuş insanların əksəriyyəti yoluxmuş quşlarla və ya quşların tüpürcəyi, selikli qişası və ya nəcisləri ilə çirklənmiş səthlərlə yaxın təmasda olub. Tərkibində virus olan damlacıqlar və ya tozlarla nəfəs alaraq onu əldə etmək də mümkündür. Nadir hallarda virus bir insandan digərinə keçir. Yaxşı bişirilməmiş quş əti və ya yumurta yeməklə də quş qripinə yoluxmaq mümkün ola bilər.",
+      description3:
+        "Antiviral dərmanlarla müalicə xəstəliyi daha az ağırlaşdıra bilər. Onlar həmçinin qripə məruz qalan insanlarda qripin qarşısını almağa kömək edə bilər. Hal-hazırda ictimaiyyət üçün heç bir peyvənd yoxdur. Hökumətin H5N1 quş qripi virusunun bir növü üçün peyvənd ehtiyatı var və insandan insana asanlıqla yayılan bir epidemiya olarsa, onu paylaya bilər.",
+      description4:
+        "İnsanlarda Quş Qripi A Virus İnfeksiyaları Xəstəliklərə Nəzarət və Qarşısının Alınması üzrə Mərkəzləri",
+    },
+    {
+      id: 10,
+      image: "./images/healtyNotes/note10.jpg",
+      alt: "note 10",
+      kind: "Vərəm",
+      title1: "Vərəm (vərəm) nədir?",
+      title2: "Vərəmin (vərəm) səbəbi nədir?",
+      title3: "Kimlərin vərəm mikroblarına yoluxma ehtimalı daha yüksəkdir?",
+      title4: "Vərəmin (vərəm) əlamətləri hansılardır?",
+      description1:
+        "Vərəm (vərəm) a bakterial xəstəlik adətən ağciyərlərə hücum edir. Ancaq böyrəklər, onurğa və beyin də daxil olmaqla bədənin digər hissələrinə də hücum edə bilər.",
+      description2:
+        "Vərəmə Mycobacterium tuberculosis adlı bakteriyalar (mikroblar) səbəb olur. Mikroblar hava yolu ilə insandan insana keçir. Boğazında və ya ağciyərində vərəm xəstəliyi olan insanlar öskürərkən, asqırdıqda, danışarkən və ya mahnı oxuyanda mikrobları havaya yayırlar. Mikrobları olan hava ilə nəfəs alsanız, vərəmə yoluxa bilərsiniz. Vərəm toxunma, öpüşmə, yemək və qab-qacaq paylaşma yolu ilə yayılmır.",
+      description3:
+        "Vərəm xəstəsi olan şəxsin yanında olan hər kəs mikroblara yoluxa bilər. Aşağıdakı hallarda vərəm xəstəliyi olan birinin yaxınlığında olma ehtimalınız daha yüksəkdir: Vərəm xəstəliyinin yayıldığı ölkələrdə anadan olublar və ya tez-tez səyahət edirlər,Səhiyyə işçisidir, Evləri, həbsxanaları və qocalar evləri olmayan insanlar üçün sığınacaqlar kimi vərəmin daha çox yayıldığı yerdə işləyin və ya yaşayın",
+      description4:
+        "Əgər vərəm xəstəliyiniz varsa, Vərəm mikrobları aktivdir, yəni bədəninizin daxilində böyüyür (çoxalır) və sizi xəstələndirir. Əgər vərəm ağciyərinizdə və ya boğazınızda böyüyürsə, siz vərəm mikroblarını başqa insanlara yaya bilərsiniz. Vərəm mikroblarına yoluxduqdan sonra həftələr və illər ərzində vərəm xəstəliyi ilə xəstələnə bilərsiniz.",
+    },
+  ];
+  const healtyNotes = document.querySelector(".healty-notes");
+
+  notes.map((item) => {
+    const li = document.createElement("li");
+    const p = document.createElement("p");
+    p.textContent = item;
+    p.className = "healty-notes-kind";
+    li.appendChild(p);
+    healtyNotes.appendChild(li);
+  });
+
+  if (healtyNotes) {
+    healtyNotes.innerHTML = "";
+    notes.forEach((note) => {
+      const noteItem = document.createElement("li");
+      noteItem.innerHTML = `
+            <div class="note-image">
+              <img src="${note.image}" alt="${note.alt}" />
+            </div>
+            <div class="note-text">
+              <h4>${note.kind}</h4>
+              <p>${note.description1}</p>
+            </div>
+        `;
+      noteItem.addEventListener("click", () => showModule(drugs));
+      healtyNotes.appendChild(noteItem);
+    });
+  } else {
+    console.error("Element with class 'healty-notes' not found");
+  }
+  // -----------modile----------------
+  const menuBar = document.querySelector(".menu-bar");
+  const menuBarModule = document.querySelector(".menuBar-module");
+  menuBarModule.style.display = "none";
+  const xIcon = document.querySelector(".fa-brands");
+  menuBar.addEventListener("click", () => {
+    menuBarModule.style.display = "flex";
+    document.body.style.overflowY = "hidden";
+  });
+  xIcon.addEventListener("click", () => {
+    menuBarModule.style.display = "none";
+    document.body.style.overflowY = "auto";
+  });
 });
