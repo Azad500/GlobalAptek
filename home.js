@@ -169,7 +169,7 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "./images/mostViewedProducts/carousel7.jpeg",
       drugName: "Lekart 1 q 5 ml N5",
       drugPrice: "10.01 AZN",
-      title1: "Torkibi:",
+      title1: "Tərkibi:",
       title2: "Farmakoloji Tasiri:",
       title3: "istehsalci Ölke:",
       description1: "Betametazon Diklifenak natrium Hidroksokobalamin",
@@ -181,7 +181,7 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "./images/mostViewedProducts/carousel6.jpg",
       drugName: "Salbutamol 200 doza",
       drugPrice: "5.40 AZN",
-      title1: "Torkibi:",
+      title1: "Tərkibi:",
       title2: "Farmakoloji Tasiri:",
       title3: "istehsalci Ölke:",
       description1: "Salbutamol",
@@ -193,174 +193,184 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "./images/mostViewedProducts/carousel1.jpg",
       drugName: "Balıq yağı N90",
       drugPrice: "37.80 AZN",
-      title1: "",
-      title2: "",
-      title3: "",
-      description1: "",
-      description2: "",
-      description3: "",
+      title1: "Tərkibi:",
+      title2: "Farmakoloji Tasiri:",
+      title3: "istehsalci Ölke:",
+      description1: "Baliq yagi",
+      description2: "Antioksidant, metabolik",
+      description3: "BOSNIYA",
     },
     {
       id: 7,
       image: "./images/mostViewedProducts/carousel2.png",
       drugName: "Kesol 50 mkq 200 doz",
       drugPrice: "14.98 AZN",
-      title1: "",
-      title2: "",
-      title3: "",
-      description1: "",
-      description2: "",
-      description3: "",
+      title1: "Tərkibi:",
+      title2: "Farmakoloji Tasiri:",
+      title3: "istehsalci Ölke:",
+      description1: "Budesonid",
+      description2: "Qlükokortikosteroid",
+      description3: "italiya",
     },
     {
       id: 8,
       image: "./images/mostViewedProducts/carousel3.webp",
       drugName: "Agemo N50",
       drugPrice: "29.60 AZN",
-      title1: "",
-      title2: "",
-      title3: "",
-      description1: "",
-      description2: "",
-      description3: "",
+      title1: "Tərkibi:",
+      title2: "Farmakoloji Tasiri:",
+      title3: "istehsalci Ölke:",
+      description1:
+        "Baliq yagi, EPT, DHT, Omega 3, C vitamini, Niasin, E vitamini,",
+      description2: "Metabolik, antioksidant",
+      description3: "Isveçre",
     },
     {
       id: 9,
       image: "./images/mostViewedProducts/carousel4.jpg",
       drugName: "Neyrovit 2 ml N10",
       drugPrice: "13.94 AZN",
-      title1: "",
-      title2: "",
-      title3: "",
-      description1: "",
-      description2: "",
-      description3: "",
+      title1: "Tərkibi:",
+      title2: "Farmakoloji Tasiri:",
+      title3: "istehsalci Ölke:",
+      description1: "B1 vitamini B6 vitamini B12 vitamini",
+      description2: "Polivitamin",
+      description3: "Belarus",
     },
     {
       id: 10,
       image: "./images/mostViewedProducts/carousel5.jpg",
       drugName: "Vamelan-wm N30",
       drugPrice: "7.91 AZN",
-      title1: "",
-      title2: "",
-      title3: "",
-      description1: "",
-      description2: "",
-      description3: "",
+      title1: "Tərkibi:",
+      title2: "Farmakoloji Tasiri:",
+      title3: "istehsalci Ölke:",
+      description1:
+        "Pisikotunun quru ekstrakti Nanenin quru ekstrakti Bedrancin quru",
+      description2: "Sedativ, yuxugetirici, spazmolitik",
+      description3: "POLSA",
     },
     {
       id: 11,
       image: "./images/allDrugs/drug2.jpg",
       drugName: "Pulsoksimetr 'Beurer' PO 30",
       drugPrice: "94.90 AZN",
-      title1: "",
-      title2: "",
-      title3: "",
-      description1: "",
-      description2: "",
-      description3: "",
+      title1: "Tərkibi:",
+      title2: "istehsalci Firma:",
+      title3: "istehsalci Ölke:",
+      description1: "saturasiya",
+      description2: "Beurer",
+      description3: "GER",
     },
     {
       id: 12,
       image: "./images/allDrugs/drug3.webp",
       drugName: "Qalınlaşdırıcı şampun 400 ml",
       drugPrice: "42.32 AZN",
-      title1: "",
-      title2: "",
-      title3: "",
-      description1: "",
-      description2: "",
-      description3: "",
+      title1: "Tərkibi:",
+      title2: "Vahidi:",
+      title3: "istehsalci Ölke:",
+      description1: "Ramnoza Filoksan Termal su Vichy Spa",
+      description2: "ADAT",
+      description3: "iSPANIYA",
     },
     {
       id: 13,
       image: "./images/allDrugs/drug4.jpg",
       drugName: "Feminiti N6",
       drugPrice: "17.33 AZN",
+      title1: "Tərkibi:",
+      title2: "Vahidi:",
+      title3: "istehsalci Ölke:",
+      description1:
+        "Metronidazol, Mikonazol nitrat, Neomisin sulfat, Polimiksin B sulfat,",
+      description2: "SVEC",
+      description3: "Argentina",
     },
     {
       id: 14,
       image: "./images/allDrugs/drug5.avif",
       drugName: "Livolen Plus N30",
       drugPrice: "23.20 AZN",
-      title1: "",
-      title2: "",
-      title3: "",
-      description1: "",
-      description2: "",
-      description3: "",
+      title1: "Tərkibi:",
+      title2: "Farmakoloji Tasiri:",
+      title3: "istehsalci Ölke:",
+      description1:
+        "Onginar yarpagi ekstrakti Alfa lipoy tursusu Siitaki ekstrakti Reysi",
+      description2: "Hepatoprotektor",
+      description3: "TÜRKiYƏ",
     },
     {
       id: 15,
       image: "./images/allDrugs/drug6.jpg",
       drugName: "Nistatin 0.5 mq N10",
       drugPrice: "2.59 AZN",
-      title1: "",
-      title2: "",
-      title3: "",
-      description1: "",
-      description2: "",
-      description3: "",
+      title1: "Tərkibi:",
+      title2: "Farmakoloji Tasiri:",
+      title3: "istehsalci Ölke:",
+      description1: "Nistatin,",
+      description2: "Gobalakeleyhine vasite",
+      description3: "BELÇIKA",
     },
     {
       id: 16,
       image: "./images/allDrugs/drug7.jpg",
       drugName: "Gastrosit N7",
       drugPrice: "23.51 AZN",
-      title1: "",
-      title2: "",
-      title3: "",
-      description1: "",
-      description2: "",
-      description3: "",
+      title1: "Tərkibi:",
+      title2: "Farmakoloji Tasiri:",
+      title3: "istehsalci Ölke:",
+      description1: "Klaritromisin, Lansoprazol, Amoksisillin,",
+      description2: "Xora aleyhine",
+      description3: "TÜRKiYƏ",
     },
     {
       id: 17,
       image: "./images/allDrugs/drug8.avif",
       drugName: "Faktazidim 500 mq N1",
       drugPrice: "5.90 AZN",
-      title1: "",
-      title2: "",
-      title3: "",
-      description1: "",
-      description2: "",
-      description3: "",
+      title1: "Tərkibi:",
+      title2: "Farmakoloji Tasiri:",
+      title3: "istehsalci Ölke:",
+      description1: "Seftazidim",
+      description2: "Antibakterial",
+      description3: "İTALİYA",
     },
     {
       id: 18,
       image: "./images/allDrugs/drug9.jpg",
       drugName: "Eritromisin 100 mq N20",
       drugPrice: "2.10 AZN",
-      title1: "",
-      title2: "",
-      title3: "",
-      description1: "",
-      description2: "",
-      description3: "",
+      title1: "Tərkibi:",
+      title2: "Farmakoloji Tasiri:",
+      title3: "istehsalci Ölke:",
+      description1: "Eritromisin,",
+      description2: "Antibiotik",
+      description3: "UKRAYNA",
     },
     {
       id: 19,
       image: "./images/allDrugs/drug10.webp",
       drugName: "Ardeysedon N20",
       drugPrice: "14.35 AZN",
-      title1: "",
-      title2: "",
-      title3: "",
-      description1: "",
-      description2: "",
-      description3: "",
+      title1: "Tərkibi:",
+      title2: "Farmakoloji Tasiri:",
+      title3: "istehsalci Ölke:",
+      description1: "Pisikotu kökü Mayaotu qozalari",
+      description2: "Sedativ",
+      description3: "MiSiR",
     },
     {
       id: 20,
       image: "./images/allDrugs/drug11.jpg",
       drugName: "Anestezol N10",
       drugPrice: "1.70 AZN",
-      title1: "",
-      title2: "",
-      title3: "",
-      description1: "",
-      description2: "",
-      description3: "",
+      title1: "Tərkibi:",
+      title2: "Vahidi:",
+      title3: "istehsalci Ölke:",
+      description1: "Benzokain, Vismut subqallat Sink oksid, Mentol,",
+      description2: "SVEC",
+      description3: "RUSIYA",
     },
   ];
   // ---------------brands------------
@@ -426,72 +436,132 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 1,
       image: "./images/optics/optic1.jpg",
-      opticName: "Optik çərçivə 'Mustang' MU7087 04",
+      drugName: "Optik çərçivə 'Mustang' MU7087 04",
       opticPrice: "110.20 AZN",
       alt: "optic 1",
+      title1: "Vahidi:",
+      title2: "istehsalci Ölke:",
+      title3: "",
+      description1: "ADAT",
+      description2: "TÜRKiYƏ",
+      description3: "",
     },
     {
       id: 2,
       image: "./images/optics/optic2.jpg",
-      opticName: "Optik çərçivə 'Mustang' MU7063 03",
+      drugName: "Optik çərçivə 'Mustang' MU7063 03",
       opticPrice: "91.80 AZN",
       alt: "optic 2",
+      title1: "Vahidi:",
+      title2: "istehsalci Ölke:",
+      title3: "",
+      description1: "ADAT",
+      description2: "TÜRKiYƏ",
+      description3: "",
     },
     {
       id: 3,
       image: "./images/optics/optic3.jpg",
-      opticName: "Optik çərçivə 'Mustang' MU7093 01",
+      drugName: "Optik çərçivə 'Mustang' MU7093 01",
       opticPrice: "110.20 AZN",
       alt: "optic 3",
+      title1: "Vahidi:",
+      title2: "istehsalci Ölke:",
+      title3: "",
+      description1: "ADAT",
+      description2: "TÜRKiYƏ",
+      description3: "",
     },
     {
       id: 4,
       image: "./images/optics/optic4.webp",
-      opticName: "Optik çərçivə 'Mustang' MU7117 02",
+      drugName: "Optik çərçivə 'Mustang' MU7117 02",
       opticPrice: "96.40 AZN",
       alt: "optic 4",
+      title1: "Vahidi:",
+      title2: "istehsalci Ölke:",
+      title3: "",
+      description1: "ADAT",
+      description2: "TÜRKiYƏ",
+      description3: "",
     },
     {
       id: 5,
       image: "./images/optics/optic5.jpg",
-      opticName: "Optik çərçivə 'Mustang' MU7114 04",
+      drugName: "Optik çərçivə 'Mustang' MU7114 04",
       opticPrice: "105.60 AZN",
       alt: "optic 5",
+      title1: "Vahidi:",
+      title2: "istehsalci Ölke:",
+      title3: "",
+      description1: "ADAT",
+      description2: "TÜRKiYƏ",
+      description3: "",
     },
     {
       id: 6,
       image: "./images/optics/optic6.png",
-      opticName: "Optik çərçivə 'Mustang' MU7125 02",
+      drugName: "Optik çərçivə 'Mustang' MU7125 02",
       opticPrice: "101 AZN",
       alt: "optic 6",
+      title1: "Vahidi:",
+      title2: "istehsalci Ölke:",
+      title3: "",
+      description1: "ADAT",
+      description2: "TÜRKiYƏ",
+      description3: "",
     },
     {
       id: 7,
       image: "./images/optics/optic7.webp",
-      opticName: "Optik çərçivə 'Mustang' MU7153",
+      drugName: "Optik çərçivə 'Mustang' MU7153",
       opticPrice: "119.35 AZN",
       alt: "optic 7",
+      title1: "Vahidi:",
+      title2: "istehsalci Ölke:",
+      title3: "",
+      description1: "ADAT",
+      description2: "TÜRKiYƏ",
+      description3: "",
     },
     {
       id: 8,
       image: "./images/optics/optic8.webp",
-      opticName: "Optik çərçivə 'Mustang' MU7083",
+      drugName: "Optik çərçivə 'Mustang' MU7083",
       opticPrice: "82.62 AZN",
       alt: "optic 8",
+      title1: "Vahidi:",
+      title2: "istehsalci Ölke:",
+      title3: "",
+      description1: "ADAT",
+      description2: "TÜRKiYƏ",
+      description3: "",
     },
     {
       id: 9,
       image: "./images/optics/optic9.jpg",
-      opticName: "Optik çərçivə 'Mustang' MU7130 02",
+      drugName: "Optik çərçivə 'Mustang' MU7130 02",
       opticPrice: "85 AZN",
       alt: "optic 9",
+      title1: "Vahidi:",
+      title2: "istehsalci Ölke:",
+      title3: "",
+      description1: "ADAT",
+      description2: "TÜRKiYƏ",
+      description3: "",
     },
     {
       id: 10,
       image: "./images/optics/optic10.jpg",
-      opticName: "Optik çərçivə 'Mustang' MU7143 02",
-      opticPrice: "100 AZN",
+      drugName: "Optik çərçivə 'Mustang' MU7143 02",
+      drugPrice: "100 AZN",
       alt: "optic 10",
+      title1: "Vahidi:",
+      title2: "istehsalci Ölke:",
+      title3: "",
+      description1: "ADAT",
+      description2: "TÜRKiYƏ",
+      description3: "",
     },
   ];
   // ---------------cosmetic------------
@@ -499,37 +569,67 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 1,
       image: "./images/cosmetics/cosmetic1.webp",
-      opticName: "LA ROCHE POSAY TOLERIANE RICHE kremi",
-      opticPrice: "33.52 AZN",
+      drugName: "LA ROCHE POSAY TOLERIANE RICHE kremi",
+      drugPrice: "33.52 AZN",
       alt: "cosmetic 1",
+      title1: "Tərkibi:",
+      title2: "istehsalci Ölke:",
+      title3: "Vahidi:",
+      description1: "Gliserin Niasinamid Seramid Termal su La Roche Posay",
+      description2: "FRANSA",
+      description3: "ADAT",
     },
     {
       id: 2,
       image: "./images/cosmetics/cosmetic2.jpg",
-      opticName: "LA ROCHE-POSAY NUTRITIC INTENSE kremi",
-      opticPrice: "12.72 AZN",
+      drugName: "LA ROCHE-POSAY NUTRITIC INTENSE kremi",
+      drugPrice: "12.72 AZN",
       alt: "cosmetic 2",
+      title1: "Tərkibi:",
+      title2: "istehsalci Ölke:",
+      title3: "Vahidi:",
+      description1: "Gliserin Niasinamid Seramid Termal su La Roche Posay",
+      description2: "FRANSA",
+      description3: "ADAT",
     },
     {
       id: 3,
       image: "./images/cosmetics/cosmetic3.jpg",
-      opticName: "LA ROCHE-POSAY TOLERIANE kremi",
-      opticPrice: "42.32 AZN",
+      drugName: "LA ROCHE-POSAY TOLERIANE kremi",
+      drugPrice: "42.32 AZN",
       alt: "cosmetic 3",
+      title1: "Tərkibi:",
+      title2: "istehsalci Ölke:",
+      title3: "Vahidi:",
+      description1: "Gliserin Niasinamid Seramid Termal su La Roche Posay",
+      description2: "FRANSA",
+      description3: "ADAT",
     },
     {
       id: 4,
       image: "./images/cosmetics/cosmetic4.webp",
-      opticName: "LA ROCHE-POSAY LIPIKAR GEL LAVANT",
-      opticPrice: "23.92 AZN",
+      drugName: "LA ROCHE-POSAY LIPIKAR GEL LAVANT",
+      drugPrice: "23.92 AZN",
       alt: "cosmetic 4",
+      title1: "Tərkibi:",
+      title2: "istehsalci Ölke:",
+      title3: "Vahidi:",
+      description1: "Gliserin Niasinamid Seramid Termal su La Roche Posay",
+      description2: "FRANSA",
+      description3: "ADAT",
     },
     {
       id: 5,
       image: "./images/cosmetics/cosmetic5.jpg",
-      opticName: "LA ROCHE-POSAY LIPIKAR OIL AP",
-      opticPrice: "39.12 AZN",
+      drugName: "LA ROCHE-POSAY LIPIKAR OIL AP",
+      drugPrice: "39.12 AZN",
       alt: "cosmetic 5",
+      title1: "Tərkibi:",
+      title2: "istehsalci Ölke:",
+      title3: "Vahidi:",
+      description1: "Gliserin Niasinamid Seramid Termal su La Roche Posay",
+      description2: "FRANSA",
+      description3: "ADAT",
     },
   ];
   // ----------------kids--------------
@@ -539,7 +639,7 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "./images/kid/kid1.jpg",
       drugName: "Bepanten",
       drugPrice: "14.80 AZN",
-      title1: "Torkibi:",
+      title1: "Tərkibi:",
       title2: "Farmakoloji Tasiri:",
       title3: "istehsalci Ölke:",
       description1: "Deksapantenol",
@@ -552,7 +652,7 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "./images/kid/kid2.webp",
       drugName: "Dolphin uşaq bezi",
       drugPrice: "7.50 AZN",
-      title1: "Torkibi:",
+      title1: "Tərkibi:",
       title2: "Farmakoloji Tasiri:",
       title3: "istehsalci Ölke:",
       description1: "Deksapantenol",
@@ -565,7 +665,7 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "./images/kid/kid3.webp",
       drugName: "Multivitaminli bərpaedici balzam",
       drugPrice: "21.52 AZN",
-      title1: "Torkibi:",
+      title1: "Tərkibi:",
       title2: "Farmakoloji Tasiri:",
       title3: "istehsalci Ölke:",
       description1: "Deksapantenol",
@@ -576,58 +676,95 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       id: 4,
       image: "./images/kid/kid4.webp",
-      opticName: "Körpələr üçün yumşaldıcı krem",
-      opticPrice: "31.92 AZN",
-      title1: "Torkibi:",
+      drugName: "Körpələr üçün yumşaldıcı krem",
+      drugPrice: "31.92 AZN",
+      title1: "Tərkibi:",
       title2: "Farmakoloji Tasiri:",
       title3: "istehsalci Ölke:",
       description1: "Deksapantenol",
       description2: "Regenerasiyaedici",
+      description3: "GER",
       alt: "kid 4",
     },
     {
       id: 5,
       image: "./images/kid/kid5.jpg",
-      opticName: "Günəşdən qoruyucu krem",
-      opticPrice: "64.72 AZN",
+      drugName: "Günəşdən qoruyucu krem",
+      drugPrice: "64.72 AZN",
+      title1: "Tərkibi:",
+      title2: "Farmakoloji Tasiri:",
+      title3: "istehsalci Ölke:",
+      description1: "Deksapantenol",
+      description2: "Regenerasiyaedici",
+      description3: "GER",
       alt: "kid 5",
     },
   ];
-
+  // ----------------pregnant--------------
   const pregnantProducts = [
     {
       id: 1,
       image: "./images/pregnant/pregnant1.jpg",
-      opticName: "Divasteron N21",
-      opticPrice: "4.20 AZN",
+      drugName: "Divasteron N21",
+      drugPrice: "4.20 AZN",
+      title1: "Tərkibi:",
+      title2: "Farmakoloji Tasiri:",
+      title3: "istehsalci Olke:",
+      description1: "Siproteron asetat Etinilestradiol",
+      description2: "Gestagen",
+      description3: "ABS",
       alt: "pregnant 1",
     },
     {
       id: 2,
       image: "./images/pregnant/pregnant2.jpg",
-      opticName: "Spazmokan 40 mq N30",
-      opticPrice: "4.98 AZN",
+      drugName: "Spazmokan 40 mq N30",
+      drugPrice: "4.98 AZN",
+      title1: "Tərkibi:",
+      title2: "Farmakoloji Tasiri:",
+      title3: "istehsalci Olke:",
+      description1: "Drotaverin",
+      description2: "Spazmolitik",
+      description3: "MACARISTAN",
       alt: "pregnant 2",
     },
     {
       id: 3,
       image: "./images/pregnant/pregnant3.webp",
-      opticName: "Magnefol N50",
-      opticPrice: "26.50 AZN",
+      drugName: "Magnefol N50",
+      drugPrice: "26.50 AZN",
+      title1: "Tərkibi:",
+      title2: "Farmakoloji Tasiri:",
+      title3: "istehsalci Olke:",
+      description1: "Maqnezium laktat",
+      description2: "Maqnezium çatışmamazlığının bərpaedicisi",
+      description3: "Ruminiya",
       alt: "pregnant 3",
     },
     {
       id: 4,
       image: "./images/pregnant/pregnant4.jpg",
-      opticName: "Biogest 200 mq N15",
-      opticPrice: "29.32 AZN",
+      drugName: "Biogest 200 mq N15",
+      drugPrice: "29.32 AZN",
+      title1: "Tərkibi:",
+      title2: "Farmakoloji Tasiri:",
+      title3: "istehsalci Olke:",
+      description1: "Progesteron",
+      description2: "Progesteron",
+      description3: "MİSİR",
       alt: "pregnant 4",
     },
     {
       id: 5,
       image: "./images/pregnant/pregnant5.jpg",
-      opticName: "Solukar 10 ml N10",
-      opticPrice: "29 AZN",
+      drugName: "Solukar 10 ml N10",
+      drugPrice: "29 AZN",
+      title1: "Tərkibi:",
+      title2: "Farmakoloji Tasiri:",
+      title3: "istehsalci Olke:",
+      description1: "L karnitin asiti",
+      description2: "Metabolik vasitə",
+      description3: "SAN-MARİNO",
       alt: "pregnant 5",
     },
   ];
@@ -692,8 +829,8 @@ document.addEventListener("DOMContentLoaded", () => {
         <img src="${pregnant.image}" alt="carousel ${pregnant.alt}" />
       </div>
       <div class="drugs-text">
-        <h4>${pregnant.opticName}</h4>
-        <p>${pregnant.opticPrice}</p>
+        <h4>${pregnant.drugName}</h4>
+        <p>${pregnant.drugPrice}</p>
       </div>
     `;
       pregnantİtem.addEventListener("click", () => showModule(pregnant));
@@ -705,24 +842,28 @@ document.addEventListener("DOMContentLoaded", () => {
   // ---------------optics------------
   const opticsContainer = document.querySelector(".optics-container");
   const opticsProduct = document.querySelector(".optics-products");
-  if (opticsProduct) {
-    opticsProduct.innerHTML = "";
-    opticsProducts.forEach((optic) => {
-      const opticsİtem = document.createElement("li");
-      opticsİtem.innerHTML += `
+  const searchElement = document.querySelector(".search-element");
+
+  function renderOptics(productsToShow) {
+    if (opticsProduct) {
+      opticsProduct.innerHTML = "";
+      productsToShow.forEach((optic) => {
+        const opticsİtem = document.createElement("li");
+        opticsİtem.innerHTML = `
       <div class="drug-image">
         <img src="${optic.image}" alt="carousel ${optic.alt}" />
       </div>
       <div class="drugs-text">
-        <h4>${optic.opticName}</h4>
-        <p>${optic.opticPrice}</p>
+        <h4>${optic.drugName}</h4>
+        <p>${optic.drugPrice}</p>
       </div>
     `;
-      opticsİtem.addEventListener("click", () => showModule(optic));
-      opticsProduct.appendChild(opticsİtem);
-    });
-  } else {
-    console.error("Element with class 'all-drugs' not found");
+        opticsİtem.addEventListener("click", () => showModule(optic));
+        opticsProduct.appendChild(opticsİtem);
+      });
+    } else {
+      console.error("Element with class 'optics-products' not found");
+    }
   }
   // ---------------cosmetic------------
   const cosmeticContainer = document.querySelector(".cosmetic-container");
@@ -736,8 +877,8 @@ document.addEventListener("DOMContentLoaded", () => {
         <img src="${cosmetic.image}" alt="carousel ${cosmetic.alt}" />
       </div>
       <div class="drugs-text">
-        <h4>${cosmetic.opticName}</h4>
-        <p>${cosmetic.opticPrice}</p>
+        <h4>${cosmetic.drugName}</h4>
+        <p>${cosmetic.drugPrice}</p>
       </div>
     `;
       cosmeticsİtem.addEventListener("click", () => showModule(cosmetic));
@@ -776,24 +917,31 @@ document.addEventListener("DOMContentLoaded", () => {
   const recordsPerPage = 10;
   const numberOfPages = Math.ceil(allDrugs.length / recordsPerPage);
 
-  function renderCards(page) {
-    const startIndex = (page - 1) * recordsPerPage;
-    const endIndex = startIndex + recordsPerPage;
-    const itemsToShow = allDrugs.slice(startIndex, endIndex);
+  function renderCards(page, searchResult = null) {
+    let itemsToShow;
+
+    if (searchResult && searchResult.length === 1) {
+      // If exactly one search result is found, show only that item
+      itemsToShow = searchResult;
+    } else {
+      const startIndex = (page - 1) * recordsPerPage;
+      const endIndex = startIndex + recordsPerPage;
+      itemsToShow = searchResult || allDrugs.slice(startIndex, endIndex);
+    }
 
     if (allDrugsProducts) {
       allDrugsProducts.innerHTML = "";
       itemsToShow.forEach((drugs) => {
         const drugItem = document.createElement("li");
         drugItem.innerHTML = `
-          <div class="drug-image">
-            <img src="${drugs.image}" alt="carousel ${drugs.id}" />
-          </div>
-          <div class="drugs-text">
-            <h4>${drugs.drugName}</h4>
-            <p>${drugs.drugPrice}</p>
-          </div>
-        `;
+        <div class="drug-image">
+          <img src="${drugs.image}" alt="carousel ${drugs.id}" />
+        </div>
+        <div class="drugs-text">
+          <h4>${drugs.drugName}</h4>
+          <p>${drugs.drugPrice}</p>
+        </div>
+      `;
         drugItem.addEventListener("click", () => showModule(drugs));
         allDrugsProducts.appendChild(drugItem);
       });
@@ -809,11 +957,8 @@ document.addEventListener("DOMContentLoaded", () => {
       const pageLink = document.createElement("button");
       pageLink.textContent = i;
       pageLink.className = "page-number";
-      if (i === currentPage) {
-        pageLink.style.backgroundColor = "#00994a";
-      } else {
-        pageLink.style.backgroundColor = "#539f78";
-      }
+      pageLink.style.backgroundColor =
+        i === currentPage ? "#00994a" : "#539f78";
       pageLink.addEventListener("click", () => {
         renderCards(i);
         renderPagination(i);
@@ -822,8 +967,47 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
+  // Example function to handle the search and filter the drugs
+  function handleSearch() {
+    const searchQuery = searchElement.value.toLowerCase();
+
+    if ((allDrugsElement.style.display = "flex")) {
+      const searchResultAllDrug = allDrugs.filter((drug) =>
+        drug.drugName.toLowerCase().includes(searchQuery)
+      );
+      if (searchResultAllDrug.length === 1) {
+        // If exactly one result is found, display only that result
+        renderCards(1, searchResultAllDrug);
+        paginationControls.innerHTML = ""; // Clear pagination controls if only one result
+        carouselContainer.style.display = "none";
+      } else {
+        // Otherwise, display paginated results
+        renderCards(1, searchResultAllDrug);
+        renderPagination(1);
+        carouselContainer.style.display = "flex";
+      }
+    }
+    if (
+      opticsContainer.style.display === "flex" &&
+      allDrugsElement.style.display === "none"
+    ) {
+      const searchResultOptics = opticsProducts.filter((optic) =>
+        optic.opticName.toLowerCase().includes(searchQuery)
+      );
+      if (searchResultOptics.length === 1) {
+        renderOptics(searchResultOptics);
+      } else {
+        renderOptics(searchResultOptics);
+      }
+    }
+  }
+
+  searchElement.addEventListener("input", handleSearch);
+
+  renderOptics(opticsProducts);
   renderCards(1);
   renderPagination(1);
+
   // ------module-drug--------
   function showModule(drug) {
     const module = document.querySelector(".overlay-module");
@@ -1103,6 +1287,15 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "./images/doctors/doctor1.jpg",
       kind: "Allerqoloq",
       doctorName: "Kamal Hacıyev",
+      title1: "Həkim haqqında",
+      title2: "Təhsil",
+      title3: "İcra olunan prosedurlar",
+      description1:
+        "Türkiyə Hepotobilyar Cərrahi Dərnəyinin həqiqi üzvüdür.Nyu-York Endokrinoloji Dərnəyinin həqiqi üzvüdür. ",
+      description2:
+        "1995-ci ildə Azərbaycan Dövlət Tibb Universitetini bitirib. 1996-2001-ci illərdə Ankara Yüksək İxtisas Xəstəxanasında Genel -cerrah ixtisası üzrə uzmanlıq bitirib. 2001-2002-ci illərdə Ankara Nümunə Elmi Araşdırma Xəstəxanasında Endokrin Cərrahiyyə üzrə yüksək ixtisas keçib. 2010-cu ildə 'Qaraciyər serrozu xəstəliyi' üzrə elmi müdafiəsini tamamlayaraq Ph.D dərəcəsini alıb. Hal-hazırda doktorluq dissertasiyası üzrənində çalışır.",
+      description3:
+        "-Endokrin cərrahiyyə;-tiroid;-paratiroid;-böyrəküstü vəzi;-pankreas cərrahiyyəsi;-cərrah hepatoloq;-qastroen;-kolopraktoloq;-ümumi və onkoloji cərrahiyyə.",
       alt: "doctor 1",
     },
     {
@@ -1110,6 +1303,15 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "./images/doctors/doctor2.jpeg",
       kind: "Anestezioloq",
       doctorName: "Amil Əliyev",
+      title1: "Həkim haqqında",
+      title2: "Təhsil",
+      title3: "İcra olunan prosedurlar",
+      description1:
+        "Türkiyə Hepotobilyar Cərrahi Dərnəyinin həqiqi üzvüdür.Nyu-York Endokrinoloji Dərnəyinin həqiqi üzvüdür. ",
+      description2:
+        "1995-ci ildə Azərbaycan Dövlət Tibb Universitetini bitirib. 1996-2001-ci illərdə Ankara Yüksək İxtisas Xəstəxanasında Genel -cerrah ixtisası üzrə uzmanlıq bitirib. 2001-2002-ci illərdə Ankara Nümunə Elmi Araşdırma Xəstəxanasında Endokrin Cərrahiyyə üzrə yüksək ixtisas keçib. 2010-cu ildə 'Qaraciyər serrozu xəstəliyi' üzrə elmi müdafiəsini tamamlayaraq Ph.D dərəcəsini alıb. Hal-hazırda doktorluq dissertasiyası üzrənində çalışır.",
+      description3:
+        "-Endokrin cərrahiyyə;-tiroid;-paratiroid;-böyrəküstü vəzi;-pankreas cərrahiyyəsi;-cərrah hepatoloq;-qastroen;-kolopraktoloq;-ümumi və onkoloji cərrahiyyə.",
       alt: "doctor 2",
     },
     {
@@ -1117,6 +1319,15 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "./images/doctors/doctor3.jpg",
       kind: "Dermatoveneroloq",
       doctorName: "Kamil Qurbanov",
+      title1: "Həkim haqqında",
+      title2: "Təhsil",
+      title3: "İcra olunan prosedurlar",
+      description1:
+        "Türkiyə Hepotobilyar Cərrahi Dərnəyinin həqiqi üzvüdür.Nyu-York Endokrinoloji Dərnəyinin həqiqi üzvüdür. ",
+      description2:
+        "1995-ci ildə Azərbaycan Dövlət Tibb Universitetini bitirib. 1996-2001-ci illərdə Ankara Yüksək İxtisas Xəstəxanasında Genel -cerrah ixtisası üzrə uzmanlıq bitirib. 2001-2002-ci illərdə Ankara Nümunə Elmi Araşdırma Xəstəxanasında Endokrin Cərrahiyyə üzrə yüksək ixtisas keçib. 2010-cu ildə 'Qaraciyər serrozu xəstəliyi' üzrə elmi müdafiəsini tamamlayaraq Ph.D dərəcəsini alıb. Hal-hazırda doktorluq dissertasiyası üzrənində çalışır.",
+      description3:
+        "-Endokrin cərrahiyyə;-tiroid;-paratiroid;-böyrəküstü vəzi;-pankreas cərrahiyyəsi;-cərrah hepatoloq;-qastroen;-kolopraktoloq;-ümumi və onkoloji cərrahiyyə.",
       alt: "doctor 3",
     },
     {
@@ -1124,6 +1335,15 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "./images/doctors/doctor4.jpeg",
       kind: "Fleboloq",
       doctorName: "İsmayıl Ələsgəov",
+      title1: "Həkim haqqında",
+      title2: "Təhsil",
+      title3: "İcra olunan prosedurlar",
+      description1:
+        "Türkiyə Hepotobilyar Cərrahi Dərnəyinin həqiqi üzvüdür.Nyu-York Endokrinoloji Dərnəyinin həqiqi üzvüdür. ",
+      description2:
+        "1995-ci ildə Azərbaycan Dövlət Tibb Universitetini bitirib. 1996-2001-ci illərdə Ankara Yüksək İxtisas Xəstəxanasında Genel -cerrah ixtisası üzrə uzmanlıq bitirib. 2001-2002-ci illərdə Ankara Nümunə Elmi Araşdırma Xəstəxanasında Endokrin Cərrahiyyə üzrə yüksək ixtisas keçib. 2010-cu ildə 'Qaraciyər serrozu xəstəliyi' üzrə elmi müdafiəsini tamamlayaraq Ph.D dərəcəsini alıb. Hal-hazırda doktorluq dissertasiyası üzrənində çalışır.",
+      description3:
+        "-Endokrin cərrahiyyə;-tiroid;-paratiroid;-böyrəküstü vəzi;-pankreas cərrahiyyəsi;-cərrah hepatoloq;-qastroen;-kolopraktoloq;-ümumi və onkoloji cərrahiyyə.",
       alt: "doctor 4",
     },
     {
@@ -1131,6 +1351,16 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "./images/doctors/doctor5.jpg",
       kind: "Hepatoloq",
       doctorName: "Könül Mahmudova",
+      title1: "Həkim haqqında",
+      title2: "Təhsil",
+      title3: "İcra olunan prosedurlar",
+      description1:
+        "Türkiyə Hepotobilyar Cərrahi Dərnəyinin həqiqi üzvüdür.Nyu-York Endokrinoloji Dərnəyinin həqiqi üzvüdür. ",
+      description2:
+        "1995-ci ildə Azərbaycan Dövlət Tibb Universitetini bitirib. 1996-2001-ci illərdə Ankara Yüksək İxtisas Xəstəxanasında Genel -cerrah ixtisası üzrə uzmanlıq bitirib. 2001-2002-ci illərdə Ankara Nümunə Elmi Araşdırma Xəstəxanasında Endokrin Cərrahiyyə üzrə yüksək ixtisas keçib. 2010-cu ildə 'Qaraciyər serrozu xəstəliyi' üzrə elmi müdafiəsini tamamlayaraq Ph.D dərəcəsini alıb. Hal-hazırda doktorluq dissertasiyası üzrənində çalışır.",
+      description3:
+        "-Endokrin cərrahiyyə;-tiroid;-paratiroid;-böyrəküstü vəzi;-pankreas cərrahiyyəsi;-cərrah hepatoloq;-qastroen;-kolopraktoloq;-ümumi və onkoloji cərrahiyyə.",
+
       alt: "doctor 5",
     },
     {
@@ -1138,6 +1368,16 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "./images/doctors/doctor6.jpg",
       kind: "Kardioloq",
       doctorName: "Üzeyir Rəhimov",
+      title1: "Həkim haqqında",
+      title2: "Təhsil",
+      title3: "İcra olunan prosedurlar",
+      description1:
+        "Türkiyə Hepotobilyar Cərrahi Dərnəyinin həqiqi üzvüdür.Nyu-York Endokrinoloji Dərnəyinin həqiqi üzvüdür. ",
+      description2:
+        "1995-ci ildə Azərbaycan Dövlət Tibb Universitetini bitirib. 1996-2001-ci illərdə Ankara Yüksək İxtisas Xəstəxanasında Genel -cerrah ixtisası üzrə uzmanlıq bitirib. 2001-2002-ci illərdə Ankara Nümunə Elmi Araşdırma Xəstəxanasında Endokrin Cərrahiyyə üzrə yüksək ixtisas keçib. 2010-cu ildə 'Qaraciyər serrozu xəstəliyi' üzrə elmi müdafiəsini tamamlayaraq Ph.D dərəcəsini alıb. Hal-hazırda doktorluq dissertasiyası üzrənində çalışır.",
+      description3:
+        "-Endokrin cərrahiyyə;-tiroid;-paratiroid;-böyrəküstü vəzi;-pankreas cərrahiyyəsi;-cərrah hepatoloq;-qastroen;-kolopraktoloq;-ümumi və onkoloji cərrahiyyə.",
+
       alt: "doctor 6",
     },
     {
@@ -1145,6 +1385,16 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "./images/doctors/doctor7.jpg",
       kind: "Mikrobioloq",
       doctorName: "Göyçək Əliyeva",
+      title1: "Həkim haqqında",
+      title2: "Təhsil",
+      title3: "İcra olunan prosedurlar",
+      description1:
+        "Türkiyə Hepotobilyar Cərrahi Dərnəyinin həqiqi üzvüdür.Nyu-York Endokrinoloji Dərnəyinin həqiqi üzvüdür. ",
+      description2:
+        "1995-ci ildə Azərbaycan Dövlət Tibb Universitetini bitirib. 1996-2001-ci illərdə Ankara Yüksək İxtisas Xəstəxanasında Genel -cerrah ixtisası üzrə uzmanlıq bitirib. 2001-2002-ci illərdə Ankara Nümunə Elmi Araşdırma Xəstəxanasında Endokrin Cərrahiyyə üzrə yüksək ixtisas keçib. 2010-cu ildə 'Qaraciyər serrozu xəstəliyi' üzrə elmi müdafiəsini tamamlayaraq Ph.D dərəcəsini alıb. Hal-hazırda doktorluq dissertasiyası üzrənində çalışır.",
+      description3:
+        "-Endokrin cərrahiyyə;-tiroid;-paratiroid;-böyrəküstü vəzi;-pankreas cərrahiyyəsi;-cərrah hepatoloq;-qastroen;-kolopraktoloq;-ümumi və onkoloji cərrahiyyə.",
+
       alt: "doctor 7",
     },
     {
@@ -1152,6 +1402,16 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "./images/doctors/doctor8.webp",
       kind: "Neyrocərrah",
       doctorName: "ƏliOsman Qədirbəyli",
+      title1: "Həkim haqqında",
+      title2: "Təhsil",
+      title3: "İcra olunan prosedurlar",
+      description1:
+        "Türkiyə Hepotobilyar Cərrahi Dərnəyinin həqiqi üzvüdür.Nyu-York Endokrinoloji Dərnəyinin həqiqi üzvüdür. ",
+      description2:
+        "1995-ci ildə Azərbaycan Dövlət Tibb Universitetini bitirib. 1996-2001-ci illərdə Ankara Yüksək İxtisas Xəstəxanasında Genel -cerrah ixtisası üzrə uzmanlıq bitirib. 2001-2002-ci illərdə Ankara Nümunə Elmi Araşdırma Xəstəxanasında Endokrin Cərrahiyyə üzrə yüksək ixtisas keçib. 2010-cu ildə 'Qaraciyər serrozu xəstəliyi' üzrə elmi müdafiəsini tamamlayaraq Ph.D dərəcəsini alıb. Hal-hazırda doktorluq dissertasiyası üzrənində çalışır.",
+      description3:
+        "-Endokrin cərrahiyyə;-tiroid;-paratiroid;-böyrəküstü vəzi;-pankreas cərrahiyyəsi;-cərrah hepatoloq;-qastroen;-kolopraktoloq;-ümumi və onkoloji cərrahiyyə.",
+
       alt: "doctor 8",
     },
     {
@@ -1159,6 +1419,16 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "./images/doctors/doctor9.jpg",
       kind: "Onkoginekoloq",
       doctorName: "Əkbər İbrahimov",
+      title1: "Həkim haqqında",
+      title2: "Təhsil",
+      title3: "İcra olunan prosedurlar",
+      description1:
+        "Türkiyə Hepotobilyar Cərrahi Dərnəyinin həqiqi üzvüdür.Nyu-York Endokrinoloji Dərnəyinin həqiqi üzvüdür. ",
+      description2:
+        "1995-ci ildə Azərbaycan Dövlət Tibb Universitetini bitirib. 1996-2001-ci illərdə Ankara Yüksək İxtisas Xəstəxanasında Genel -cerrah ixtisası üzrə uzmanlıq bitirib. 2001-2002-ci illərdə Ankara Nümunə Elmi Araşdırma Xəstəxanasında Endokrin Cərrahiyyə üzrə yüksək ixtisas keçib. 2010-cu ildə 'Qaraciyər serrozu xəstəliyi' üzrə elmi müdafiəsini tamamlayaraq Ph.D dərəcəsini alıb. Hal-hazırda doktorluq dissertasiyası üzrənində çalışır.",
+      description3:
+        "-Endokrin cərrahiyyə;-tiroid;-paratiroid;-böyrəküstü vəzi;-pankreas cərrahiyyəsi;-cərrah hepatoloq;-qastroen;-kolopraktoloq;-ümumi və onkoloji cərrahiyyə.",
+
       alt: "doctor 9",
     },
     {
@@ -1166,6 +1436,16 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "./images/doctors/doctor10.jpg",
       kind: "Patomorfoloq",
       doctorName: "Müqavil Şıxəliyev",
+      title1: "Həkim haqqında",
+      title2: "Təhsil",
+      title3: "İcra olunan prosedurlar",
+      description1:
+        "Türkiyə Hepotobilyar Cərrahi Dərnəyinin həqiqi üzvüdür.Nyu-York Endokrinoloji Dərnəyinin həqiqi üzvüdür. ",
+      description2:
+        "1995-ci ildə Azərbaycan Dövlət Tibb Universitetini bitirib. 1996-2001-ci illərdə Ankara Yüksək İxtisas Xəstəxanasında Genel -cerrah ixtisası üzrə uzmanlıq bitirib. 2001-2002-ci illərdə Ankara Nümunə Elmi Araşdırma Xəstəxanasında Endokrin Cərrahiyyə üzrə yüksək ixtisas keçib. 2010-cu ildə 'Qaraciyər serrozu xəstəliyi' üzrə elmi müdafiəsini tamamlayaraq Ph.D dərəcəsini alıb. Hal-hazırda doktorluq dissertasiyası üzrənində çalışır.",
+      description3:
+        "-Endokrin cərrahiyyə;-tiroid;-paratiroid;-böyrəküstü vəzi;-pankreas cərrahiyyəsi;-cərrah hepatoloq;-qastroen;-kolopraktoloq;-ümumi və onkoloji cərrahiyyə.",
+
       alt: "doctor 10",
     },
     {
@@ -1173,6 +1453,16 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "./images/doctors/doctor11.png",
       kind: "Proktoloq",
       doctorName: "Anar Əliyev",
+      title1: "Həkim haqqında",
+      title2: "Təhsil",
+      title3: "İcra olunan prosedurlar",
+      description1:
+        "Türkiyə Hepotobilyar Cərrahi Dərnəyinin həqiqi üzvüdür.Nyu-York Endokrinoloji Dərnəyinin həqiqi üzvüdür. ",
+      description2:
+        "1995-ci ildə Azərbaycan Dövlət Tibb Universitetini bitirib. 1996-2001-ci illərdə Ankara Yüksək İxtisas Xəstəxanasında Genel -cerrah ixtisası üzrə uzmanlıq bitirib. 2001-2002-ci illərdə Ankara Nümunə Elmi Araşdırma Xəstəxanasında Endokrin Cərrahiyyə üzrə yüksək ixtisas keçib. 2010-cu ildə 'Qaraciyər serrozu xəstəliyi' üzrə elmi müdafiəsini tamamlayaraq Ph.D dərəcəsini alıb. Hal-hazırda doktorluq dissertasiyası üzrənində çalışır.",
+      description3:
+        "-Endokrin cərrahiyyə;-tiroid;-paratiroid;-böyrəküstü vəzi;-pankreas cərrahiyyəsi;-cərrah hepatoloq;-qastroen;-kolopraktoloq;-ümumi və onkoloji cərrahiyyə.",
+
       alt: "doctor 11",
     },
     {
@@ -1180,6 +1470,16 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "./images/doctors/doctor12.jpg",
       kind: "Pulmonoloq",
       doctorName: "Mahir Əliyev",
+      title1: "Həkim haqqında",
+      title2: "Təhsil",
+      title3: "İcra olunan prosedurlar",
+      description1:
+        "Türkiyə Hepotobilyar Cərrahi Dərnəyinin həqiqi üzvüdür.Nyu-York Endokrinoloji Dərnəyinin həqiqi üzvüdür. ",
+      description2:
+        "1995-ci ildə Azərbaycan Dövlət Tibb Universitetini bitirib. 1996-2001-ci illərdə Ankara Yüksək İxtisas Xəstəxanasında Genel -cerrah ixtisası üzrə uzmanlıq bitirib. 2001-2002-ci illərdə Ankara Nümunə Elmi Araşdırma Xəstəxanasında Endokrin Cərrahiyyə üzrə yüksək ixtisas keçib. 2010-cu ildə 'Qaraciyər serrozu xəstəliyi' üzrə elmi müdafiəsini tamamlayaraq Ph.D dərəcəsini alıb. Hal-hazırda doktorluq dissertasiyası üzrənində çalışır.",
+      description3:
+        "-Endokrin cərrahiyyə;-tiroid;-paratiroid;-böyrəküstü vəzi;-pankreas cərrahiyyəsi;-cərrah hepatoloq;-qastroen;-kolopraktoloq;-ümumi və onkoloji cərrahiyyə.",
+
       alt: "doctor 12",
     },
     {
@@ -1187,6 +1487,16 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "./images/doctors/doctor13.jpg",
       kind: "Reanimatoloq",
       doctorName: "Sevda Quliyeva",
+      title1: "Həkim haqqında",
+      title2: "Təhsil",
+      title3: "İcra olunan prosedurlar",
+      description1:
+        "Türkiyə Hepotobilyar Cərrahi Dərnəyinin həqiqi üzvüdür.Nyu-York Endokrinoloji Dərnəyinin həqiqi üzvüdür. ",
+      description2:
+        "1995-ci ildə Azərbaycan Dövlət Tibb Universitetini bitirib. 1996-2001-ci illərdə Ankara Yüksək İxtisas Xəstəxanasında Genel -cerrah ixtisası üzrə uzmanlıq bitirib. 2001-2002-ci illərdə Ankara Nümunə Elmi Araşdırma Xəstəxanasında Endokrin Cərrahiyyə üzrə yüksək ixtisas keçib. 2010-cu ildə 'Qaraciyər serrozu xəstəliyi' üzrə elmi müdafiəsini tamamlayaraq Ph.D dərəcəsini alıb. Hal-hazırda doktorluq dissertasiyası üzrənində çalışır.",
+      description3:
+        "-Endokrin cərrahiyyə;-tiroid;-paratiroid;-böyrəküstü vəzi;-pankreas cərrahiyyəsi;-cərrah hepatoloq;-qastroen;-kolopraktoloq;-ümumi və onkoloji cərrahiyyə.",
+
       alt: "doctor 13",
     },
     {
@@ -1194,6 +1504,16 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "./images/doctors/doctor14.jpeg",
       kind: "Stomatoloq",
       doctorName: "Rövşən İbişov",
+      title1: "Həkim haqqında",
+      title2: "Təhsil",
+      title3: "İcra olunan prosedurlar",
+      description1:
+        "Türkiyə Hepotobilyar Cərrahi Dərnəyinin həqiqi üzvüdür.Nyu-York Endokrinoloji Dərnəyinin həqiqi üzvüdür. ",
+      description2:
+        "1995-ci ildə Azərbaycan Dövlət Tibb Universitetini bitirib. 1996-2001-ci illərdə Ankara Yüksək İxtisas Xəstəxanasında Genel -cerrah ixtisası üzrə uzmanlıq bitirib. 2001-2002-ci illərdə Ankara Nümunə Elmi Araşdırma Xəstəxanasında Endokrin Cərrahiyyə üzrə yüksək ixtisas keçib. 2010-cu ildə 'Qaraciyər serrozu xəstəliyi' üzrə elmi müdafiəsini tamamlayaraq Ph.D dərəcəsini alıb. Hal-hazırda doktorluq dissertasiyası üzrənində çalışır.",
+      description3:
+        "-Endokrin cərrahiyyə;-tiroid;-paratiroid;-böyrəküstü vəzi;-pankreas cərrahiyyəsi;-cərrah hepatoloq;-qastroen;-kolopraktoloq;-ümumi və onkoloji cərrahiyyə.",
+
       alt: "doctor 14",
     },
     {
@@ -1201,6 +1521,16 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "./images/doctors/doctor15.jpg",
       kind: "Uroloq-androloq",
       doctorName: "Seymur Mehtiyev",
+      title1: "Həkim haqqında",
+      title2: "Təhsil",
+      title3: "İcra olunan prosedurlar",
+      description1:
+        "Türkiyə Hepotobilyar Cərrahi Dərnəyinin həqiqi üzvüdür.Nyu-York Endokrinoloji Dərnəyinin həqiqi üzvüdür. ",
+      description2:
+        "1995-ci ildə Azərbaycan Dövlət Tibb Universitetini bitirib. 1996-2001-ci illərdə Ankara Yüksək İxtisas Xəstəxanasında Genel -cerrah ixtisası üzrə uzmanlıq bitirib. 2001-2002-ci illərdə Ankara Nümunə Elmi Araşdırma Xəstəxanasında Endokrin Cərrahiyyə üzrə yüksək ixtisas keçib. 2010-cu ildə 'Qaraciyər serrozu xəstəliyi' üzrə elmi müdafiəsini tamamlayaraq Ph.D dərəcəsini alıb. Hal-hazırda doktorluq dissertasiyası üzrənində çalışır.",
+      description3:
+        "-Endokrin cərrahiyyə;-tiroid;-paratiroid;-böyrəküstü vəzi;-pankreas cərrahiyyəsi;-cərrah hepatoloq;-qastroen;-kolopraktoloq;-ümumi və onkoloji cərrahiyyə.",
+
       alt: "doctor 15",
     },
     {
@@ -1208,6 +1538,16 @@ document.addEventListener("DOMContentLoaded", () => {
       image: "./images/doctors/doctor16.png",
       kind: "Terapevt",
       doctorName: "Həbib Sahratov",
+      title1: "Həkim haqqında",
+      title2: "Təhsil",
+      title3: "İcra olunan prosedurlar",
+      description1:
+        "Türkiyə Hepotobilyar Cərrahi Dərnəyinin həqiqi üzvüdür.Nyu-York Endokrinoloji Dərnəyinin həqiqi üzvüdür. ",
+      description2:
+        "1995-ci ildə Azərbaycan Dövlət Tibb Universitetini bitirib. 1996-2001-ci illərdə Ankara Yüksək İxtisas Xəstəxanasında Genel -cerrah ixtisası üzrə uzmanlıq bitirib. 2001-2002-ci illərdə Ankara Nümunə Elmi Araşdırma Xəstəxanasında Endokrin Cərrahiyyə üzrə yüksək ixtisas keçib. 2010-cu ildə 'Qaraciyər serrozu xəstəliyi' üzrə elmi müdafiəsini tamamlayaraq Ph.D dərəcəsini alıb. Hal-hazırda doktorluq dissertasiyası üzrənində çalışır.",
+      description3:
+        "-Endokrin cərrahiyyə;-tiroid;-paratiroid;-böyrəküstü vəzi;-pankreas cərrahiyyəsi;-cərrah hepatoloq;-qastroen;-kolopraktoloq;-ümumi və onkoloji cərrahiyyə.",
+
       alt: "doctor 16",
     },
   ];
@@ -1242,18 +1582,19 @@ document.addEventListener("DOMContentLoaded", () => {
     const allDoctors = document.querySelector(".right-side-doctors");
     if (allDoctors) {
       allDoctors.innerHTML = "";
-      filteredDoctors.forEach((optic) => {
+      filteredDoctors.forEach((doctor) => {
+        // Use 'doctor' instead of 'optic'
         const doctorItem = document.createElement("li");
         doctorItem.innerHTML = `
             <div class="drug-image">
-              <img src="${optic.image}" alt="${optic.alt}" />
+              <img src="${doctor.image}" alt="${doctor.alt}" />
             </div>
             <div class="drugs-text">
-              <h4>${optic.kind}</h4>
-              <p>${optic.doctorName}</p>
+              <h4>${doctor.kind}</h4>
+              <p>${doctor.doctorName}</p>
             </div>
         `;
-        doctorItem.addEventListener("click", () => showModule(drugs));
+        doctorItem.addEventListener("click", () => showModuleDoctor(doctor)); // Pass 'doctor' to the function
         allDoctors.appendChild(doctorItem);
       });
     } else {
@@ -1267,6 +1608,51 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   displayDoctors(doctors);
+
+  function showModuleDoctor(doctor) {
+    // Use 'doctor' instead of 'drug'
+    const module = document.querySelector(".overlay-module");
+    if (module) {
+      window.scrollTo({
+        top: 0,
+      });
+      document.body.style.overflowY = "hidden";
+      module.innerHTML = `
+        <div class="overlay-element">
+          <div class="module-left-side">
+            <div>
+              <img src="${doctor.image}" alt="${doctor.doctorName}" />
+            </div>
+            <h3>${doctor.doctorName}</h3>
+            <button class="close-module">Bağla</button>
+          </div>
+          <ul class="module-right-side">
+            <li>
+              <h3>${doctor.title1}</h3>
+              <p>${doctor.description1}</p>
+            </li>
+            <li>
+              <h3>${doctor.title2}</h3>
+              <p>${doctor.description2}</p>
+            </li>
+            <li>
+              <h3>${doctor.title3}</h3>
+              <p>${doctor.description3}</p>
+            </li>
+          </ul>
+        </div>  
+      `;
+      module.style.display = "flex";
+
+      const closeButton = module.querySelector(".close-module");
+      closeButton.addEventListener("click", () => {
+        module.style.display = "none";
+        document.body.style.overflowY = "auto";
+      });
+    } else {
+      console.error("Element with class 'overlay-module' not found");
+    }
+  }
 
   // -----------healty-notes----------
 
@@ -1458,11 +1844,12 @@ document.addEventListener("DOMContentLoaded", () => {
     healtyNotes.appendChild(li);
   });
 
-  if (healtyNotes) {
-    healtyNotes.innerHTML = "";
-    notes.forEach((note) => {
-      const noteItem = document.createElement("li");
-      noteItem.innerHTML = `
+  const informationsCart = (notes) => {
+    if (healtyNotes) {
+      healtyNotes.innerHTML = "";
+      notes.forEach((note) => {
+        const noteItem = document.createElement("li");
+        noteItem.innerHTML = `
             <div class="note-image">
               <img src="${note.image}" alt="${note.alt}" />
             </div>
@@ -1471,13 +1858,63 @@ document.addEventListener("DOMContentLoaded", () => {
               <p>${note.description1}</p>
             </div>
         `;
-      noteItem.addEventListener("click", () => showModule(drugs));
-      healtyNotes.appendChild(noteItem);
-    });
-  } else {
-    console.error("Element with class 'healty-notes' not found");
+        noteItem.addEventListener("click", () => showModuleİnformations(note));
+        healtyNotes.appendChild(noteItem);
+      });
+    } else {
+      console.error("Element with class 'healty-notes' not found");
+    }
+  };
+  function showModuleİnformations(note) {
+    const module = document.querySelector(".overlay-module");
+    if (module) {
+      window.scrollTo({
+        top: 0,
+      });
+      document.body.style.overflowY = "hidden";
+      module.innerHTML = `
+        <div class="overlay-element">
+          <div class="module-left-side">
+            <div>
+              <img src="${note.image}" alt="${note.alt}" />
+            </div>
+            <h3>${note.kind}</h3>
+            <button class="close-module">Bağla</button>
+          </div>
+          <ul class="module-right-side">
+            <li>
+              <h3>${note.title1}</h3>
+              <p>${note.description1}</p>
+            </li>
+            <li>
+              <h3>${note.title2}</h3>
+              <p>${note.description2}</p>
+            </li>
+            <li>
+              <h3>${note.title3}</h3>
+              <p>${note.description3}</p>
+            </li>
+            <li>
+              <h3>${note.title4}</h3>
+              <p>${note.description4}</p>
+            </li>
+          </ul>
+        </div>  
+      `;
+      module.style.display = "flex";
+
+      const closeButton = module.querySelector(".close-module");
+      closeButton.addEventListener("click", () => {
+        module.style.display = "none";
+        document.body.style.overflowY = "auto";
+      });
+    } else {
+      console.error("Element with class 'overlay-module' not found");
+    }
   }
-  // -----------modile----------------
+  informationsCart(notes);
+
+  // -----------mobile----------------
   const menuBar = document.querySelector(".menu-bar");
   const menuBarModule = document.querySelector(".menuBar-module");
   menuBarModule.style.display = "none";
